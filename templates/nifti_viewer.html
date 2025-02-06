@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NIFTI Viewer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/gh/rii-mango/Papaya@master/release/current/standard/papaya.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rii-mango/Papaya@master/release/current/standard/papaya.css" />
+
+    <script type="text/javascript">
+        var params = [];
+        params["worldSpace"] = true;
+        params["images"] = ["{{ url_for('serve_nifti', filepath=file_path) }}"];
+    </script>
+
+    <style>
+        .instructions {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        .instructions h4 {
+            color: #0d6efd;
+            margin-bottom: 15px;
+        }
+        
+        .instruction-section {
+            margin-bottom: 20px;
+        }
+
+        .key {
+            background-color: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+            border: 1px solid #dee2e6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>NIFTI Viewer</h2>
+        <div class="mb-3">
+            <a href="{{ url_for('results') }}" class="btn btn-primary">Back to Results</a>
+        </div>
+
+        <div class="instructions">
+            <h4>Viewer Controls</h4>
+            
+            <div class="instruction-section">
+                <h5>Mouse Controls</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><span class="key">Left-click + drag</span> Change current coordinate</li>
+                    <li class="mb-2"><span class="key">Right-click + drag</span> Adjust brightness/contrast</li>
+                    <li class="mb-2"><span class="key">Ctrl</span> + <span class="key">Left-click + drag</span> Adjust brightness/contrast</li>
+                    <li class="mb-2"><span class="key">Alt</span> + <span class="key">Left-click + drag</span> Zoom in/out</li>
+                    <li class="mb-2"><span class="key">Alt</span> + <span class="key">Shift</span> + <span class="key">Left-click + drag</span> Pan when zoomed</li>
+                </ul>
+            </div>
+
+            <div class="instruction-section">
+                <h5>Keyboard Controls</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><span class="key">Spacebar</span> Cycle through main slice views</li>
+                    <li class="mb-2"><span class="key">Page Up</span> or <span class="key">fn + ↑</span> Increment axial slice</li>
+                    <li class="mb-2"><span class="key">Page Down</span> or <span class="key">fn + ↓</span> Decrement axial slice</li>
+                    <li class="mb-2"><span class="key">↑</span> and <span class="key">↓</span> Change coronal slice</li>
+                    <li class="mb-2"><span class="key">→</span> and <span class="key">←</span> Change sagittal slice</li>
+                    <li class="mb-2"><span class="key">g</span> and <span class="key">v</span> Change main slice (any direction)</li>
+                    <li class="mb-2"><span class="key">o</span> Navigate to image origin</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="papaya" data-params="params"></div>
+    </div>
+</body>
+</html>
