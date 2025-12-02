@@ -169,6 +169,7 @@ def convert_dicoms(input_dir: Path, output_dir: Path, logger: logging.Logger) ->
         '-z', 'y',              # Compress output
         '-b', 'y',              # Create BIDS sidecar
         '-ba', 'n',             # Don't anonymize
+        '-d', '9',              # Max depth
         '-f', '%p_%s_%d',       # Filename format
         '-o', str(output_dir),
         str(input_dir)
