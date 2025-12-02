@@ -47,16 +47,16 @@ flowchart TD
     G --> I[🗺️ Neuromaps<br/>Spatial Correlation]
     H --> J[🔗 NCT<br/>Network Mapping]
     
-    style A fill:#f5f5f5,stroke:#333
-    style B fill:#f5f5f5,stroke:#333
-    style C fill:#81c784,stroke:#2e7d32
-    style D fill:#81c784,stroke:#2e7d32
-    style E fill:#90caf9,stroke:#1565c0
-    style F fill:#ef9a9a,stroke:#c62828
-    style G fill:#90caf9,stroke:#1565c0
-    style H fill:#ef9a9a,stroke:#c62828
-    style I fill:#42a5f5,stroke:#1565c0,color:#fff
-    style J fill:#ef5350,stroke:#c62828,color:#fff
+    style A fill:#e0e0e0,stroke:#333,color:#000
+    style B fill:#e0e0e0,stroke:#333,color:#000
+    style C fill:#a5d6a7,stroke:#2e7d32,color:#000
+    style D fill:#a5d6a7,stroke:#2e7d32,color:#000
+    style E fill:#bbdefb,stroke:#1565c0,color:#000
+    style F fill:#ffcdd2,stroke:#c62828,color:#000
+    style G fill:#bbdefb,stroke:#1565c0,color:#000
+    style H fill:#ffcdd2,stroke:#c62828,color:#000
+    style I fill:#64b5f6,stroke:#1565c0,color:#000
+    style J fill:#e57373,stroke:#c62828,color:#000
 ```
 
 ![Project Workflow](workflow_pipeline.png)
