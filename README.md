@@ -21,13 +21,13 @@ flowchart TD
     %% FREESURFER
     A3 --> B1["⚙️ recon-all + qcache"]
     B1 --> B2["📐 Surface Extraction"] --> B3["📊 Morphometrics<br/>thickness, volume"]
-    B3 --> B4["🔬 localGI + AAN"]
-    B3 --> B5["✅ QC FreeView"]
+    B3 --> B4["🔬 localGI + AAN Segmentation"]
+    B3 --> B5["✅ Quality Control with FreeView"]
     B4 --> B5
     
     %% GROUP ANALYSIS
-    B5 --> C1["📋 FSGD + Contrast"]
-    C1 --> C2["🔧 mris_preproc"] --> C3["📊 mri_glmfit<br/>Age, Delta, eTIV [CERAD]"]
+    B5 --> C1["📋 FSGD File + Contrast Matrix"]
+    C1 --> C2["🔧 mris_preproc<br/>Concat Subjects"] --> C3["📊 mri_glmfit<br/>Age, Delta, eTIV [CERAD]"]
     C3 --> C4[["gamma.mgh"]]
     C3 --> C5[["sig.mgh"]]
     
