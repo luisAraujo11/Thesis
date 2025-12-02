@@ -27,7 +27,7 @@ flowchart TD
         B1["⚙️ recon-all + qcache<br/>31-step pipeline"]
         B2["📐 Surface Extraction<br/>white + pial surfaces"]
         B3["📊 Morphometric Measures<br/>thickness, volume, curvature"]
-        B4["🔬 Additional Processing<br/>localLGI, AAN segmentation"]
+        B4["🔬 Additional Processing<br/>localGI, AAN segmentation"]
         B5["✅ Quality Control<br/>FreeView manual review"]
     end
     
@@ -55,7 +55,7 @@ flowchart TD
         E2[["sig.cluster.mgh<br/>p < 0.05 clusters"]]
         E3["🔄 Export fsaverage6<br/>mri_surf2surf"]
         E4["⬛ Binarization<br/>threshold > 0.5"]
-        E5[("📚 fMRI Atlas Library<br/>23 atlases")]
+        E5[("📚 fMRI Atlas Library<br/>4 atlases")]
         E6["🎲 Dice Coefficient<br/>spin-test 1000 perm"]
     end
     
@@ -139,7 +139,9 @@ Outputs:
 - Cluster Correction: *.cluster.mgh (cluster-corrected map)
 ```
 
-![Project Workflow](workflow_pipeline.png)
+**Pipeline Overview:**
+
+![Project Workflow](Images/workflow_pipeline.png)
 
 **Figure 1:** Project Workflow Illustration. FreeSurfer Processing Data pipeline (Green) was retrieved and adapted from Gao et al. (2020). Neuromaps Workflow (Blue) was retrieved from Markello et al. (2022). Network Correspondence Toolbox Workflow (Red) was retrieved from Kong et al. (2025).
 
@@ -698,7 +700,7 @@ A web platform was developed as a secondary objective to facilitate DICOM to NIf
 
 | File Manager | NIfTI Viewer |
 |:---:|:---:|
-| ![File Manager](web_app_file_manager.png) | ![NIfTI Viewer](web_app_viewer.png) |
+| ![File Manager](Images/web_app_file_manager.png) | ![NIfTI Viewer](Images/web_app_viewer.png) |
 
 **Figure 2:** Web platform interface for DICOM to NIfTI conversion and visualization. (a) File management interface showing the list of converted NIfTI files with metadata and download options. (b) Interactive visualization interface using Papaya viewer, displaying multi-planar views of a brain MRI scan with coordinate information and intensity values.
 
