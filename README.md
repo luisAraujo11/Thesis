@@ -103,7 +103,9 @@ cat commands_file.txt | parallel --progress --jobs 12
 - `-all`: Complete 31-step reconstruction pipeline
 - `-qcache`: Pre-computes smoothed maps at 0, 5, 10, 15, 20, 25mm FWHM
 
-**Quality Control Visualization:**
+**Quality Control:** Subjects with significant surface gaps were excluded (see thesis Table 9 for details).
+
+**➤ Quality Control Visualization:**
 ```bash
 # Check pial/white surface placement
 freeview -v $SUBJECTS_DIR/NACC145249/mri/brainmask.mgz \
@@ -125,7 +127,7 @@ freeview -f $SUBJECTS_DIR/NACC145249/surf/lh.pial:overlay=$SUBJECTS_DIR/NACC1452
 **Compute LGI:**
 ```bash
 # Given a subject directory, it will compute the LGI for all sujects in parallel
-./localLGI
+./localLGI.sh
 ```
 
 **Smooth and resample for group analysis:**
@@ -151,9 +153,9 @@ freeview -f $SUBJECTS_DIR/NACC145249/surf/lh.pial:overlay=$SUBJECTS_DIR/NACC1452
 
 ### 2.3 Brainstem AAN Segmentation
 
-**Script:** `FreeSurfer/segmentAAN.sh`
+**Script:** `FreeSurfer/segmentAAN.sh` 
 
-**Note:** Requires FreeSurfer 8.1.0 (used Docker image for compatibility with v7.4.1)
+**Note:** Requires FreeSurfer 8.1.0 image - `freesurfer/freesurfer:8.1.0` (used Docker image for compatibility with v7.4.1)
 
 **Script structure (parallel processing):**
 ```bash
@@ -177,6 +179,12 @@ for subject in "${subjects[@]}"; do
 done
 wait
 ```
+
+**Script:** `extract_segmentAAN.sh`
+
+Extracts created segmentation files from all subjects into a single folder.
+
+**Note:** Regex may be updated given the name files of each subject.
 
 **Outputs:** Brainstem nuclei volumes (VTA, LC, PTg, DR, MnR, etc.)
 
@@ -277,6 +285,13 @@ freeview -f $SUBJECTS_DIR/fsaverage/surf/lh.inflated:overlay=lh.thickness.${stud
 freeview -f $SUBJECTS_DIR/fsaverage/surf/lh.inflated:overlay=lh.thickness.${study}.10.glmdir/AD-PART_Age_Delta_eTIV/gamma.mgh:overlay_threshold=0.05,0.3
 ```
 
+**Note:** Run all scripts (3.1, 3.2, 3.3) with `FreeSurfer/runAllGroupScripts.sh`
+
+**Example command:**
+```bash
+./runAllGroupScripts.sh AdvsPARTwithoutLBStudy
+```
+
 ### 3.4 Export Regional Statistics
 
 **Scripts:**
@@ -369,7 +384,7 @@ python batch_processing_surface_script.py \
 **Map Categories:**
 - Neurotransmitters: 5-HT1a, 5-HT1b, 5-HT2a, 5-HT4, D1, D2, DAT, NET, SERT, GABAa, mGluR5, VAChT, MOR, CB1, etc.
 - Metabolism: CBF, CBV, CMR O2, CMR Glucose, etc.
-- Mitochondrial (external): MRC, CI, CII, CIV, TRC, MitoD
+- Mitochondrial (external, Mosharov et al. 2025): MRC, CI, CII, CIV, TRC, MitoD
 - Other: TSPO, COX-1, SV2A, etc.
 
 **Output:** CSV with Pearson r, p-value, null mean/std for each map.
@@ -519,8 +534,7 @@ Thesis/
 │   ├── runGLMs.sh
 │   ├── runClustSims.sh
 │   ├── export_desikan_killiany.sh
-│   ├── FSGD/
-│   └── Contrasts/
+│   └── extract_segmentAAN.sh
 ├── Neuromaps/                # Phase 4
 │   ├── pipeline_neuromaps_v5.py
 │   ├── neuromaps_multi_parcellation.py
@@ -545,9 +559,16 @@ export FREESURFER_HOME=/usr/local/freesurfer/7.4.1
 source $FREESURFER_HOME/SetUpFreeSurfer.sh
 export SUBJECTS_DIR=/path/to/subjects
 
+# NCT Python package installation
+pip install cbig-network-correspondence
+
 # Python packages
 pip install neuromaps nibabel nilearn surfplot pandas matplotlib
+
 ```
+**Hardware:** 
+- All code was run on a workstation provided by Professor Tiago Gil at ICVS with Intel Core i9-14900KF (32 threads), 128GB RAM, NVMe SSD, Ubuntu 24.04.3 LTS. The most demanding scripts like the FreeSurfer pre-processing were concluded in 2-4 hours using 30 cores (in parallel).
+- The web-app was run on a workstation provided by Professor Victor Alves with AMD EPYC 7702P 64-Core Processor (128 threads), 251 GB RAM, PNY CS3140 1TB NVMe SSD + SATA SSD + 4× 3.6 TB HDDs, Ubuntu. Port 37134 was specifically made available for this host server.
 
 ---
 
