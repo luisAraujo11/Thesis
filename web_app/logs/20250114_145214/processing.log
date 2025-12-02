@@ -1,0 +1,375 @@
+[2025-01-14 14:52:14] INFO: Beginning processing run
+[2025-01-14 14:52:16] INFO: Upload type: folder
+[2025-01-14 14:52:16] INFO: Saved 166 files from uploaded folder
+[2025-01-14 14:52:16] INFO: Starting pipeline processing for: uploads/upload_20250114_145214
+[2025-01-14 14:52:16] INFO: Processing directory: uploads/upload_20250114_145214
+[2025-01-14 14:52:16] INFO: Found 167 total files
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151821615_105_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151821846_101_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151835988_166_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151834557_10_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151838842_127_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151844759_63_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151814699_77_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151820732_116_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151812281_104_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151818291_151_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151820523_125_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151823388_86_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151841279_83_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151815629_90_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151816502_95_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151837510_33_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151839320_118_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151837951_134_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151842949_1_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151832931_21_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151833642_49_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151811621_94_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151825152_51_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151839760_110_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151824710_137_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151843235_73_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151809026_42_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151826696_133_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151827371_69_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151817643_22_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151831045_37_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151814464_15_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151823614_122_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151840631_103_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151815391_38_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151832143_28_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151825367_19_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151817851_158_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151833170_88_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151845837_85_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151810981_89_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151846059_52_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151815161_70_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151844545_87_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151816057_32_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151811410_148_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151830173_123_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151820953_112_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151831259_97_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151812949_53_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151834341_45_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151829023_106_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151847142_96_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151814233_59_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151822730_34_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151824498_24_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151821395_109_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151828023_113_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151841997_18_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151845190_58_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151840408_23_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151813553_82_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151834994_163_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151828240_81_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151824070_99_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151842222_79_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151828667_47_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151836203_156_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151833411_98_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151837069_66_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151809455_139_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151844983_29_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151846719_80_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151817201_165_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151829934_102_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151809888_128_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151845409_9_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151822503_67_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151818070_154_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151816968_144_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151846276_3_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151841762_50_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151842701_11_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151846492_155_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151810527_115_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151843875_159_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151844103_35_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151822273_92_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151832697_54_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151835658_160_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151810099_124_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151830610_76_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151847837_13_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151818952_17_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151842466_46_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151837296_145_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151808589_6_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151821170_72_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151819832_132_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151826922_130_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151819177_140_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151848970_146_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151835441_39_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151833872_16_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151814935_44_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151840838_2_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151843670_68_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151847588_161_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151836424_152_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151825586_93_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151845621_25_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151826253_74_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151828451_8_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151846928_164_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151826489_41_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151838611_64_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151831700_31_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151834785_71_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151830399_36_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151812728_27_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151848307_153_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151831484_7_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151848066_157_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151839104_121_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151811200_111_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151813337_20_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151839539_114_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151818736_143_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151819611_136_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151812060_30_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151827580_120_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151822064_141_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151820290_129_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151841053_162_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151810311_119_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151825803_12_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151811839_108_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151824925_84_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151817411_55_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151815849_65_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151827787_117_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151809670_135_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151829709_14_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151831923_60_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151827149_126_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151830819_43_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151813771_48_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151819393_26_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151834114_78_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151812510_100_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151836634_91_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151840190_107_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151838157_131_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151836854_149_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151818513_147_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151839980_56_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151808811_5_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151843450_40_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151848751_75_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151809251_142_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151816283_61_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151824278_57_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151837733_138_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151823837_62_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151848527_150_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'MP-RAGE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-01-14 14:52:16] INFO: Valid DICOM file: uploads/upload_20250114_145214/I135827/ADNI_007_S_1206_MR_MP-RAGE__br_raw_20090212151822940_4_S62967_I135827.dcm
+[2025-01-14 14:52:16] INFO: Found 166 DICOM files
+[2025-01-14 14:52:16] INFO: Starting DICOM conversion process
+[2025-01-14 14:52:16] INFO: Starting DICOM conversion for directory: uploads/upload_20250114_145214
+[2025-01-14 14:52:16] INFO: Using conversion parameters: {'compression': 'y', 'crop': '0', 'merge': '0', 'floating': '1', 'verbose': '1'}
+[2025-01-14 14:52:16] INFO: Running conversion command: dcm2niix -z y -b y -ba n -f %p_%s_%d -o outputs uploads/upload_20250114_145214
+[2025-01-14 14:52:18] INFO: dcm2niix output:
+[2025-01-14 14:52:18] INFO:   Chris Rorden's dcm2niiX version v1.0.20220505  GCC11.4.0 x86-64 (64-bit Linux)
+[2025-01-14 14:52:18] INFO:   Found 166 DICOM file(s)
+[2025-01-14 14:52:18] INFO:   Convert 166 DICOM as outputs/ADNI_3T_14M4_TS_2_2_MP-RAGE (256x256x166x1)
+[2025-01-14 14:52:18] INFO:   Conversion required 1.667856 seconds (1.667790 for core code).
+[2025-01-14 14:52:18] INFO:   
+[2025-01-14 14:52:18] INFO: Generated 23 NIFTI files
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_701_T1_T_3mm.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_801_T2_COR_3mm_SENSEa.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_604_sb1500.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_401_FLAIR_longTR.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_901_T2W_FLAIRa.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_604_sb1500a.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_603_sb0a.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_603_sb0.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_801_T2_COR_3mm_SENSE.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_901_T2W_FLAIR.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_701_T1_T_3mma.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_1001_T2W_FFEa.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_301_T1_SE_SAGa.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_1001_T2W_FFE.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_503_sT2_e2a.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_502_sDPa.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_301_T1_SE_SAG.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_503_sT2_e2.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_502_sDP.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_605_dADCa.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_401_FLAIR_longTRa.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/anonymous_605_dADC.nii.gz
+[2025-01-14 14:52:18] INFO: Added processed file: outputs/ADNI_3T_14M4_TS_2_2_MP-RAGE.nii.gz
+[2025-01-14 14:52:18] INFO: Successfully processed 23 new files
+[2025-01-14 14:52:18] INFO: Directory processing completed successfully

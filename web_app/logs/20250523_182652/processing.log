@@ -1,0 +1,438 @@
+[2025-05-23 18:26:52] INFO: Beginning processing run
+[2025-05-23 18:26:56] INFO: Upload type: folder
+[2025-05-23 18:26:56] INFO: Saved 196 files from uploaded folder
+[2025-05-23 18:26:56] INFO: Starting pipeline processing for: uploads/upload_20250523_182652
+[2025-05-23 18:26:56] INFO: Processing directory: uploads/upload_20250523_182652
+[2025-05-23 18:26:56] INFO: Found 197 total files
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165903922_67_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165934527_124_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170043063_72_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165855705_155_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170041238_185_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170009376_175_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165923094_23_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165942971_95_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170025870_26_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165915140_193_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170030703_36_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170051412_120_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165902973_10_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165905250_149_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170001618_87_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170037896_140_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170025373_77_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165940954_102_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170029017_119_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165917754_105_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165950405_76_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165923822_164_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165942599_31_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170008796_13_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165939154_96_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165949620_160_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165858128_14_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170002663_167_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170048605_3_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170019451_42_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165955218_43_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165946802_6_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165933404_55_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170032908_98_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170051662_41_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170044605_161_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165941669_194_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165854450_52_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165855069_123_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165916531_127_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165907779_108_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170032549_11_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165901926_104_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165953184_170_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165859795_141_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165853795_186_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165939036_61_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170007229_142_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165854376_91_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165910481_32_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165951563_145_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170045637_48_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165855230_18_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170000662_129_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165909910_28_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165905693_65_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170027711_112_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165857855_17_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170013214_154_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165945770_151_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165942760_84_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170004869_30_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165852919_132_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165913067_134_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165947818_118_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165905510_189_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170002258_86_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165859584_80_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170037776_182_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165852783_89_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170031848_178_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170027750_94_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170019304_180_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165946918_69_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165944397_163_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165935083_153_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165950033_147_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170051086_88_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165956573_172_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165937567_159_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165855240_16_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170040586_82_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165913911_99_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170012394_136_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165900528_192_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165854306_195_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170045185_183_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170024964_37_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170006807_90_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170021620_62_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165933747_50_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170039414_115_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170018867_131_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170039339_63_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170030361_81_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170039213_39_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170029828_146_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165946571_158_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165937237_57_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165908982_70_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165939827_4_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165920680_54_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170023174_74_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165911840_181_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165945307_150_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170017422_103_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165939533_169_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165914918_38_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165931185_121_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165900481_110_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170009799_106_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170041064_144_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165917179_165_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170022625_44_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165945563_47_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165912646_56_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170007809_143_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165855420_173_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170030026_97_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170051442_128_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165905490_9_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165906821_33_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165859155_114_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165913806_35_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165954181_101_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165950508_64_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170045078_138_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165955323_19_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170001217_125_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165944649_148_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165933620_46_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165953549_191_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165857741_12_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165941707_168_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165859464_45_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170000278_93_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170007529_85_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170037068_171_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165853812_133_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165919759_162_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165922400_7_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170005142_49_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165853483_15_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170023285_130_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170043497_176_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165923178_179_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165923473_34_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165907864_71_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170009860_21_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170046816_29_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170027206_177_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165947633_27_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170025452_196_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165957205_53_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165950998_190_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165954977_111_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170005122_188_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165903150_139_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165855313_184_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165857446_58_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170051782_166_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165932904_59_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165923063_75_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170000492_156_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170026582_20_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170001297_117_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170034268_109_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165916591_68_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170043337_78_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170047642_24_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170044573_25_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165949858_79_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170021546_5_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170043605_107_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165909294_157_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165947190_1_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165853949_152_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165925205_83_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170021458_135_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170042966_187_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170021865_8_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165902891_2_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165939581_73_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165900933_40_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165903455_100_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170031881_60_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165944949_51_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170027188_92_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170009748_113_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170050951_116_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170024868_174_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165938223_22_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165951624_137_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170021747_126_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923165957685_122_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: file info: {'type': 'dicom', 'manufacturer': 'GE MEDICAL SYSTEMS', 'series_description': 'Accelerated SAG IR-SPGR', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2025-05-23 18:26:56] INFO: Valid DICOM file: uploads/upload_20250523_182652/I391604/ADNI_003_S_4892_MR_Accelerated_SAG_IR-SPGR__br_raw_20130923170042695_66_S201872_I391604.dcm
+[2025-05-23 18:26:56] INFO: Found 196 DICOM files
+[2025-05-23 18:26:56] INFO: Starting DICOM conversion process
+[2025-05-23 18:26:56] INFO: Starting DICOM conversion for directory: uploads/upload_20250523_182652
+[2025-05-23 18:26:56] INFO: Using conversion parameters: {'compression': 'y', 'crop': '0', 'merge': '0', 'floating': '1', 'verbose': '1'}
+[2025-05-23 18:26:56] INFO: Running conversion command: dcm2niix -z y -b y -ba n -f %p_%s_%d -o outputs uploads/upload_20250523_182652
+[2025-05-23 18:26:56] INFO: dcm2niix output:
+[2025-05-23 18:26:56] INFO:   Chris Rorden's dcm2niiX version v1.0.20220720  (JP2:OpenJPEG) GCC13.2.0 x86-64 (64-bit Linux)
+[2025-05-23 18:26:56] INFO:   Found 196 DICOM file(s)
+[2025-05-23 18:26:56] INFO:   Convert 196 DICOM as outputs/ADNI2_4_5_Accelerated_SAG_IR-SPGR (256x256x196x1)
+[2025-05-23 18:26:56] INFO:   Compress: "/usr/bin/pigz" -b 960 -n -f -6 "outputs/ADNI2_4_5_Accelerated_SAG_IR-SPGR.nii"
+[2025-05-23 18:26:56] INFO:   Conversion required 0.309729 seconds (0.188171 for core code).
+[2025-05-23 18:26:56] INFO:   
+[2025-05-23 18:26:56] INFO: Generated 25 NIFTI files
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_701_T1_T_3mm.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_801_T2_COR_3mm_SENSEa.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/ADNI2_4_5_Accelerated_SAG_IR-SPGR.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_604_sb1500.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_401_FLAIR_longTR.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_901_T2W_FLAIRa.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_604_sb1500a.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_603_sb0a.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_603_sb0.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/FSL_B0_603.nii_mni152.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_801_T2_COR_3mm_SENSE.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_901_T2W_FLAIR.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_701_T1_T_3mma.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_1001_T2W_FFEa.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_301_T1_SE_SAGa.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_1001_T2W_FFE.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_503_sT2_e2a.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_502_sDPa.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_301_T1_SE_SAG.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_503_sT2_e2.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_502_sDP.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_605_dADCa.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_401_FLAIR_longTRa.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/anonymous_605_dADC.nii.gz
+[2025-05-23 18:26:56] INFO: Added processed file: outputs/ADNI_3T_14M4_TS_2_2_MP-RAGE.nii.gz
+[2025-05-23 18:26:56] INFO: Successfully processed 25 new files
+[2025-05-23 18:26:56] INFO: Directory processing completed successfully

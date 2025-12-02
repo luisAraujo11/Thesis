@@ -1,0 +1,677 @@
+[2024-12-19 20:50:07] INFO: Beginning processing run
+[2024-12-19 20:50:14] INFO: Upload type: folder
+[2024-12-19 20:50:14] INFO: Saved 316 files from uploaded folder
+[2024-12-19 20:50:14] INFO: Starting pipeline processing for: uploads/upload_20241219_205007
+[2024-12-19 20:50:14] INFO: Processing directory: uploads/upload_20241219_205007
+[2024-12-19 20:50:14] INFO: Found 338 total files
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB90/FF231F51
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EEAA8EF2
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EE570ADB
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EE870A78
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EE6C02A7
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EE31D62D
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EE0A45AD
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EEC48E2B
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EE400DC7
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EEC03067
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EEAD86BA
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EE990792
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EED3AC3F
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EE0A9BBE
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EE19BCFE
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EE256337
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EE641DD4
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EEEF618C
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EE19BD66
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EED0702E
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EE4615D6
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EE624DAB
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EE345D8B
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sT2', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000156D/EEC01051
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EED5A30D
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE1EB6A7
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EED42E9F
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EEBCA2C7
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EECF7219
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE43458D
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE117935
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EEC57A08
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE7CB9BA
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE81AAD0
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE96A518
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EED4F483
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE042939
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EEBA328E
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE1F1506
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE7546B1
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE4840D5
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EEDD3B45
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EEC1DFB3
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EEF34CDB
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE204136
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EEE32E28
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE8C56DD
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE29D971
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EEF4E7F8
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE89905C
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE64DBE7
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE4B5168
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EEA967BB
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE80E4C6
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE613DD5
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EEDDAB1B
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE9E6F45
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE1B3644
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE063648
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EEE44077
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE0BFEAD
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EEE6C82E
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE96FECA
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE7380D3
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE9DEC67
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FLAIR', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00004AB5/EE94EE1C
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE2350C0
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE40C0BC
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE89133C
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE6F879E
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE6B49AC
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EEB94CFE
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE8FA8E3
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE5B27CC
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE25D73F
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE7CA93A
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE3308DD
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE8C3BD8
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EEA97BE6
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE37D83B
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE4B0DFB
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE2489DF
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EEFE5B5D
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE70D4A2
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE54179C
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE5C72CA
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EEACA39D
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EE4513F6
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EEDF65B3
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb0', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CAA9/EEC5BC85
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'UNKNOWN', 'sequence_type': 'UNKNOWN', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000064C0/FF2095A7
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE864A58
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE527432
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEC9CE3E
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE347FBE
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE60CF09
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE8879AD
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE7E7FC4
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE022B29
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE2C59AE
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEFF0037
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE4163C2
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE478C1B
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE2D88C8
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE8C6407
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE829855
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEDF6814
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE3290C5
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE7356D7
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEF46A33
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEC8849F
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE99DA81
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE8B7469
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEC83EAB
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE50C938
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE40CF75
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE359600
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE8B93AE
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEDEF2FD
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEE98551
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEC22F47
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEDD5215
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEAFBAE3
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEC68C54
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEEF0253
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE04D45E
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE9A67BC
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EE2DAC5B
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEBA7389
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEDF5C3E
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/T/3mm', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000024D8/EEC2818A
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BD58/FFFDCE95
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EE51CE11
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EEB4B30B
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EECAF202
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EEE024C1
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EEC17630
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EEFCA589
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EEE90E01
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EE4F494D
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EE1F1F7A
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EE3A06BF
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EE08C3CC
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EE25DBB5
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EE19C641
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EEC0F67B
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EED92683
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EE432AB2
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EED1BD60
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EEB442A7
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EE3F5C60
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EE3D3FB5
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EE0A5B63
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00000D0D/EE29DE2A
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EEE4B2E1
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EEC79D8C
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EE32D37D
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EE38F02A
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EEE5DA8A
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EEF28B0D
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EEE38326
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EE51EC95
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EE2B1B38
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EE0FEB54
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EE19A61E
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EE95C8D7
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EE576D71
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EEEC975A
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EECC0258
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EE938D02
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EE750868
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EE2E24FE
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EE7930EB
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EE4FCC3D
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EE4A408A
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T1/SE/SAG', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000087F5/EE40FC20
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2W_FFE', 'sequence_type': 'T1', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000E4D6/FFA99CDF
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EEF7398D
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EE106241
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EEEF3E31
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EE391611
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EEA4421C
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EE400A83
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EECE8962
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EE586564
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EEF82439
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EE124F36
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EEFA0DD0
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EE69C61C
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EEB809FD
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EEE6E6D6
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EE24AB62
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EEED0DAC
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EE5C60DB
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EEE61301
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EEAA587E
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EE15DEE9
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EE138A1F
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EE2FC59E
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EEA53229
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'dADC', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00005C0E/EEAA94A5
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE56465D
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE3DFDA7
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE1670D2
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE5CB1B6
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE475835
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE0BBA8D
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE43B3D2
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EEDB7D38
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EEDE1769
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE4648D9
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE2B505F
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE144256
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE3BCFB9
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE70A82C
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE92049E
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE595BB2
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE354641
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EEC01CF9
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EEA014DD
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EED8495E
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EEE3F039
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EEA951A5
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE091526
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sb1500', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB02/EE5E2131
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'UNKNOWN', 'sequence_type': 'UNKNOWN', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D7F6/FF4AA0E6
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE601983
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE4E5AA6
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EEBCECE7
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EEF6DDF1
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE257EA7
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE446631
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE7FC33E
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE35A10C
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE81DB63
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE438FFA
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE1D50F7
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE90F64A
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE07CC94
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EEB11F6B
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE3761A0
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE22E703
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EECD9B04
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EED0B308
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EECD2AE6
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EEA611D6
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EEF3FFBB
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EEEFAE6E
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE8266DA
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE7B6833
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EED8DDE3
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE66D146
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE22980F
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE65208A
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE0802D6
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE08411A
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EEF8650E
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE1EE5C2
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE75BE7F
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EEF32E73
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EEFE600A
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE0B15B6
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE379AC4
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EEF62584
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE555169
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'T2/COR/3mm SENSE', 'sequence_type': 'T2', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000BB05/EE3821BA
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE71328F
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EEFE02DB
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EEEB869B
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE1D9E70
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE65654A
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE75B47D
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE7086FC
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE9B8885
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE42C420
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE11F8EA
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE383E3F
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE12E1F2
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EEEC7080
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE1A1522
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EEA23748
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE1B57C7
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EEF00132
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE9318D0
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE87F574
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE188DBB
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EE1EDA93
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EEAF597A
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'sDP', 'sequence_type': 'DWI', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/000057E1/EEE59010
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'UNKNOWN', 'sequence_type': 'UNKNOWN', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/00001FD3/FF93E57F
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'UNKNOWN', 'sequence_type': 'UNKNOWN', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000CC20/FF484615
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE282A42
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE4C75DD
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE853C71
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EEAEBD01
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE694D2C
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE4961C6
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE53202F
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE25F840
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE853071
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE02215F
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE9D2F59
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EEB78C10
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EEFB0968
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EEFFD76F
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EEEAF378
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE82F936
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EEE4F0AB
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE9B02A2
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE7902DE
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE0C7A1C
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE525DA8
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE2356B7
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE0E7FBE
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EE9B7311
+[2024-12-19 20:50:14] INFO: file info: {'type': 'dicom', 'manufacturer': 'Philips Medical Systems', 'series_description': 'FLAIR_longTR', 'sequence_type': 'FLAIR', 'validation_status': 'valid'}
+[2024-12-19 20:50:14] INFO: Valid DICOM file: uploads/upload_20241219_205007/DICOM/0000D89C/AA23C11B/AACAB34B/0000D57D/EEEA2744
+[2024-12-19 20:50:14] INFO: Found 316 DICOM files
+[2024-12-19 20:50:14] INFO: Starting DICOM conversion process
+[2024-12-19 20:50:14] INFO: Starting DICOM conversion for directory: uploads/upload_20241219_205007
+[2024-12-19 20:50:14] INFO: Using conversion parameters: {'compression': 'y', 'crop': '0', 'merge': '0', 'floating': '1', 'verbose': '1'}
+[2024-12-19 20:50:14] INFO: Running conversion command: dcm2niix -z y -b y -ba n -f %p_%s_%d -o outputs uploads/upload_20241219_205007
+[2024-12-19 20:50:19] INFO: dcm2niix output:
+[2024-12-19 20:50:19] INFO:   Chris Rorden's dcm2niiX version v1.0.20220505  GCC11.4.0 x86-64 (64-bit Linux)
+[2024-12-19 20:50:19] INFO:   Found 316 DICOM file(s)
+[2024-12-19 20:50:19] INFO:   Convert 40 DICOM as outputs/anonymous_801_T2_COR_3mm_SENSE (576x576x40x1)
+[2024-12-19 20:50:19] INFO:   Convert 23 DICOM as outputs/anonymous_503_sT2_e2 (384x384x23x1)
+[2024-12-19 20:50:19] INFO:   Convert 22 DICOM as outputs/anonymous_301_T1_SE_SAG (288x288x22x1)
+[2024-12-19 20:50:19] INFO:   Convert 42 DICOM as outputs/anonymous_901_T2W_FLAIR (288x288x42x1)
+[2024-12-19 20:50:19] INFO:   Convert 22 DICOM as outputs/anonymous_1001_T2W_FFE (256x256x22x1)
+[2024-12-19 20:50:19] INFO:   Convert 25 DICOM as outputs/anonymous_401_FLAIR_longTR (256x256x25x1)
+[2024-12-19 20:50:19] INFO:   Convert 23 DICOM as outputs/anonymous_502_sDP (384x384x23x1)
+[2024-12-19 20:50:19] INFO:   Convert 24 DICOM as outputs/anonymous_605_dADC (256x256x24x1)
+[2024-12-19 20:50:19] INFO:   Warning: This diffusion series does not have a B0 (reference) volume
+[2024-12-19 20:50:19] INFO:   Note: this appears to be a b=0+trace DWI; ADC/trace removal has been disabled.
+[2024-12-19 20:50:19] INFO:   Warning: Volume 0 appears to be derived image ADC/Isotropic (non-zero b-value with zero vector length)
+[2024-12-19 20:50:19] INFO:   Warning: Saving 1 DTI gradients. Validate vectors (image slice orientation not reported, e.g. 2001,100B).
+[2024-12-19 20:50:19] INFO:   Convert 24 DICOM as outputs/anonymous_604_sb1500 (256x256x24x1)
+[2024-12-19 20:50:19] INFO:   Convert 40 DICOM as outputs/anonymous_701_T1_T_3mm (336x336x40x1)
+[2024-12-19 20:50:19] INFO:   Convert 24 DICOM as outputs/anonymous_603_sb0 (256x256x24x1)
+[2024-12-19 20:50:19] INFO:   Conversion required 4.511077 seconds (4.510862 for core code).
+[2024-12-19 20:50:19] INFO:   
+[2024-12-19 20:50:19] INFO: Generated 11 NIFTI files
+[2024-12-19 20:50:19] INFO: Added processed file: outputs/anonymous_701_T1_T_3mm.nii.gz
+[2024-12-19 20:50:19] INFO: Added processed file: outputs/anonymous_604_sb1500.nii.gz
+[2024-12-19 20:50:19] INFO: Added processed file: outputs/anonymous_401_FLAIR_longTR.nii.gz
+[2024-12-19 20:50:19] INFO: Added processed file: outputs/anonymous_603_sb0.nii.gz
+[2024-12-19 20:50:19] INFO: Added processed file: outputs/anonymous_801_T2_COR_3mm_SENSE.nii.gz
+[2024-12-19 20:50:19] INFO: Added processed file: outputs/anonymous_901_T2W_FLAIR.nii.gz
+[2024-12-19 20:50:19] INFO: Added processed file: outputs/anonymous_1001_T2W_FFE.nii.gz
+[2024-12-19 20:50:19] INFO: Added processed file: outputs/anonymous_301_T1_SE_SAG.nii.gz
+[2024-12-19 20:50:19] INFO: Added processed file: outputs/anonymous_503_sT2_e2.nii.gz
+[2024-12-19 20:50:19] INFO: Added processed file: outputs/anonymous_502_sDP.nii.gz
+[2024-12-19 20:50:19] INFO: Added processed file: outputs/anonymous_605_dADC.nii.gz
+[2024-12-19 20:50:19] INFO: Successfully processed 11 new files
+[2024-12-19 20:50:19] INFO: Directory processing completed successfully

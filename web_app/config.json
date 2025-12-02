@@ -1,0 +1,5 @@
+{
+  "users": {
+    "admin": "scrypt:32768:8:1$aL5emF39YfxUQZMy$e3f4a86dadb593deaecca86ae87a4285397cbd593af106ddcf17f6d07f473a8e7b87b7db4550a1f3c79f6df70841ef6c906b4c1b1552cc71134e2fe8ddcface5"
+  }
+}
