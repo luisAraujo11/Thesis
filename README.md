@@ -13,50 +13,138 @@ This document describes the chronological development steps of the thesis projec
 This thesis analyzes structural MRI data from the NACC dataset (833 post-mortem cases) to identify brain regions affected in Alzheimer's Disease (AD) compared to Primary Age-Related Tauopathy (PART), and Neocortical Lewy Body (LB) pathology. Findings are correlated with molecular brain maps using spatial permutation testing.
 
 **Main Pipeline:**
+```mermaid
+flowchart TD
+    %% ============ DATA INPUT ============
+    subgraph INPUT["📊 Data Input"]
+        A1[("🗄️ NACC Database<br/>833 cases")]
+        A2["📁 Raw T1-MRI<br/>.nii.gz"]
+        A3["🔍 Filtering<br/>T1 extraction only"]
+    end
+    
+    %% ============ FREESURFER PROCESSING ============
+    subgraph FS["🧠 FreeSurfer Processing"]
+        B1["⚙️ recon-all + qcache<br/>31-step pipeline"]
+        B2["📐 Surface Extraction<br/>white + pial surfaces"]
+        B3["📊 Morphometric Measures<br/>thickness, volume, curvature"]
+        B4["🔬 Additional Processing<br/>localGI, AAN segmentation"]
+        B5["✅ Quality Control<br/>FreeView manual review"]
+    end
+    
+    %% ============ GROUP ANALYSIS ============
+    subgraph GA["📈 Group Analysis"]
+        C1["📋 FSGD + Contrast<br/>AD vs PART, LB vs no LB"]
+        C2["🔧 mris_preproc<br/>10mm smoothing"]
+        C3["📊 mri_glmfit<br/>GLM with covariates<br/>Age, Delta, eTIV"]
+        C4[["gamma.mgh<br/>effect size"]]
+        C5[["sig.mgh<br/>significance"]]
+    end
+    
+    %% ============ NEUROMAPS BRANCH ============
+    subgraph NM["🗺️ Neuromaps Analysis"]
+        D1["🔄 Export to GIFTI<br/>mri_convert"]
+        D2["🔀 Spatial Transform<br/>fsaverage space"]
+        D3[("📚 Brain Map Library<br/>53+ atlases<br/>neurotransmitters,<br/>metabolism, mitochondrial")]
+        D4["🎲 Spatial Null Models<br/>Vazquez-Rodriguez<br/>spin-test 1000 perm"]
+        D5["📈 Pearson Correlation<br/>+ empirical p-values"]
+    end
+    
+    %% ============ NCT BRANCH ============
+    subgraph NCT["🔗 Network Correspondence"]
+        E1["🎯 Cluster Correction<br/>Monte Carlo simulation<br/>mri_glmfit-sim"]
+        E2[["sig.cluster.mgh<br/>p < 0.05 clusters"]]
+        E3["🔄 Export fsaverage6<br/>mri_surf2surf"]
+        E4["⬛ Binarization<br/>threshold > 0.5"]
+        E5[("📚 fMRI Atlas Library<br/>23 resting-state atlases<br/>Yeo17, Schaefer, Gordon")]
+        E6["🎲 Dice Coefficient<br/>spin-test 1000 perm"]
+    end
+    
+    %% ============ RESULTS ============
+    subgraph RES["📊 Results"]
+        F1["🧬 Neurotransmitter<br/>Correlations<br/>5-HT, DA, NE, GABA"]
+        F2["🔥 Metabolic<br/>Signatures<br/>CBF, CMR, Mitochondrial"]
+        F3["🌐 Network<br/>Correspondence<br/>DMN, DorsAttn, Premotor"]
+    end
+    
+    %% ============ CONNECTIONS ============
+    A1 --> A2 --> A3
+    A3 --> B1
+    B1 --> B2 --> B3
+    B3 --> B4
+    B3 --> B5
+    B4 --> B5
+    B5 --> C1
+    C1 --> C2 --> C3
+    C3 --> C4
+    C3 --> C5
+    
+    %% Neuromaps branch
+    C4 --> D1 --> D2
+    D3 --> D2
+    D2 --> D4 --> D5
+    
+    %% NCT branch  
+    C5 --> E1 --> E2 --> E3 --> E4
+    E5 --> E4
+    E4 --> E6
+    
+    %% Results
+    D5 --> F1
+    D5 --> F2
+    E6 --> F3
+    
+    %% ============ STYLING ============
+    %% Input - Gray
+    style A1 fill:#e0e0e0,stroke:#616161,color:#000
+    style A2 fill:#e0e0e0,stroke:#616161,color:#000
+    style A3 fill:#e0e0e0,stroke:#616161,color:#000
+    
+    %% FreeSurfer - Green
+    style B1 fill:#a5d6a7,stroke:#2e7d32,color:#000
+    style B2 fill:#a5d6a7,stroke:#2e7d32,color:#000
+    style B3 fill:#a5d6a7,stroke:#2e7d32,color:#000
+    style B4 fill:#81c784,stroke:#2e7d32,color:#000
+    style B5 fill:#81c784,stroke:#2e7d32,color:#000
+    
+    %% Group Analysis - Green
+    style C1 fill:#c8e6c9,stroke:#2e7d32,color:#000
+    style C2 fill:#c8e6c9,stroke:#2e7d32,color:#000
+    style C3 fill:#a5d6a7,stroke:#2e7d32,color:#000
+    style C4 fill:#81c784,stroke:#1b5e20,color:#000,stroke-width:2px
+    style C5 fill:#81c784,stroke:#1b5e20,color:#000,stroke-width:2px
+    
+    %% Neuromaps - Blue
+    style D1 fill:#bbdefb,stroke:#1565c0,color:#000
+    style D2 fill:#90caf9,stroke:#1565c0,color:#000
+    style D3 fill:#64b5f6,stroke:#0d47a1,color:#000
+    style D4 fill:#42a5f5,stroke:#0d47a1,color:#000
+    style D5 fill:#1e88e5,stroke:#0d47a1,color:#fff,stroke-width:2px
+    
+    %% NCT - Red/Pink
+    style E1 fill:#ffcdd2,stroke:#c62828,color:#000
+    style E2 fill:#ef9a9a,stroke:#c62828,color:#000,stroke-width:2px
+    style E3 fill:#ffcdd2,stroke:#c62828,color:#000
+    style E4 fill:#ef9a9a,stroke:#c62828,color:#000
+    style E5 fill:#e57373,stroke:#b71c1c,color:#000
+    style E6 fill:#e53935,stroke:#b71c1c,color:#fff,stroke-width:2px
+    
+    %% Results - Purple
+    style F1 fill:#ce93d8,stroke:#7b1fa2,color:#000
+    style F2 fill:#ba68c8,stroke:#7b1fa2,color:#000
+    style F3 fill:#ab47bc,stroke:#6a1b9a,color:#fff
+    
+    %% Subgraph styling
+    style INPUT fill:#fafafa,stroke:#9e9e9e
+    style FS fill:#e8f5e9,stroke:#4caf50
+    style GA fill:#e8f5e9,stroke:#4caf50
+    style NM fill:#e3f2fd,stroke:#2196f3
+    style NCT fill:#ffebee,stroke:#f44336
+    style RES fill:#f3e5f5,stroke:#9c27b0
 ```
-┌─────────────┐    ┌──────────────┐    ┌─────────────────┐    ┌──────────────┐
-│  Raw MRI    │───►│  Filtering   │───►│ FreeSurfer      │───►│   Group      │
-│             │    │  (T1 only)   │    │ recon-all       │    │   Analysis   │
-└─────────────┘    └──────────────┘    │ + qcache        │    │   (GLM)      │
-                                       └─────────────────┘    └──────┬───────┘
-                                                                     │
-                                                                     ▼
-┌─────────────┐    ┌──────────────┐    ┌─────────────────┐    ┌──────────────┐
-│   NCT       │◄───│  Neuromaps   │◄───│   Export to     │◄───│  Cluster     │
-│  (Network   │    │  (Spatial    │    │   GIFTI/fsa6    │    │  Correction  │
-│   Mapping)  │    │  Correlation)│    │                 │    │  Monte Carlo │
-└─────────────┘    └──────────────┘    └─────────────────┘    └──────────────┘
-
+```
 Outputs:
 - Group Analysis: gamma.mgh (effect size), sig.mgh (uncorrected significance)
 - Cluster Correction: *.cluster.mgh (cluster-corrected map)
-```
-
-```mermaid
-flowchart TD
-    A[🧠 Raw MRI] --> B[📁 Filtering<br/>T1 only]
-    B --> C[❄️ FreeSurfer<br/>recon-all + qcache]
-    C --> D[📊 Group Analysis<br/>GLM]
-    
-    D --> E[gamma.mgh<br/>effect size]
-    D --> F[Cluster Correction<br/>Monte Carlo - sig.mgh]
-    
-    E --> G[Export to GIFTI]
-    F --> H[Export to fsaverage6]
-    
-    G --> I[🗺️ Neuromaps<br/>Spatial Correlation]
-    H --> J[🔗 NCT<br/>Network Mapping]
-    
-    style A fill:#e0e0e0,stroke:#333,color:#000
-    style B fill:#e0e0e0,stroke:#333,color:#000
-    style C fill:#a5d6a7,stroke:#2e7d32,color:#000
-    style D fill:#a5d6a7,stroke:#2e7d32,color:#000
-    style E fill:#bbdefb,stroke:#1565c0,color:#000
-    style F fill:#ffcdd2,stroke:#c62828,color:#000
-    style G fill:#bbdefb,stroke:#1565c0,color:#000
-    style H fill:#ffcdd2,stroke:#c62828,color:#000
-    style I fill:#64b5f6,stroke:#1565c0,color:#000
-    style J fill:#e57373,stroke:#c62828,color:#000
 ```
 
 ![Project Workflow](workflow_pipeline.png)
