@@ -35,7 +35,7 @@ Outputs:
 ```mermaid
 flowchart TD
     A[🧠 Raw MRI] --> B[📁 Filtering<br/>T1 only]
-    B --> C[⚙️ FreeSurfer<br/>recon-all + qcache]
+    B --> C[❄️ FreeSurfer<br/>recon-all + qcache]
     C --> D[📊 Group Analysis<br/>GLM]
     
     D --> E[gamma.mgh<br/>effect size]
@@ -47,10 +47,16 @@ flowchart TD
     G --> I[🗺️ Neuromaps<br/>Spatial Correlation]
     H --> J[🔗 NCT<br/>Network Mapping]
     
-    style A fill:#e1f5fe
-    style C fill:#c8e6c9
-    style I fill:#bbdefb
-    style J fill:#ffcdd2
+    style A fill:#f5f5f5,stroke:#333
+    style B fill:#f5f5f5,stroke:#333
+    style C fill:#81c784,stroke:#2e7d32
+    style D fill:#81c784,stroke:#2e7d32
+    style E fill:#90caf9,stroke:#1565c0
+    style F fill:#ef9a9a,stroke:#c62828
+    style G fill:#90caf9,stroke:#1565c0
+    style H fill:#ef9a9a,stroke:#c62828
+    style I fill:#42a5f5,stroke:#1565c0,color:#fff
+    style J fill:#ef5350,stroke:#c62828,color:#fff
 ```
 
 ![Project Workflow](workflow_pipeline.png)
