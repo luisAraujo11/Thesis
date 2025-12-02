@@ -15,112 +15,75 @@ This thesis analyzes structural MRI data from the NACC dataset (833 post-mortem 
 **Main Pipeline:**
 ```mermaid
 flowchart TD
-    %% ============ DATA INPUT ============
-    subgraph INPUT["Data Input"]
-        A1[("🗄️ NACC Database<br/>833 cases")]
-        A2["📁 Raw T1-MRI<br/>.nii.gz"]
-        A3["🔍 Filtering<br/>T1 extraction only"]
-    end
+    %% DATA INPUT
+    A1[("🗄️ NACC Database<br/>833 cases")] --> A2["📁 Raw T1-MRI"] --> A3["🔍 Filtering<br/>T1 only"]
     
-    %% ============ FREESURFER PROCESSING ============
-    subgraph FS["FreeSurfer Processing"]
-        B1["⚙️ recon-all + qcache<br/>31-step pipeline"]
-        B2["📐 Surface Extraction<br/>white + pial surfaces"]
-        B3["📊 Morphometric Measures<br/>thickness, volume, curvature"]
-        B4["🔬 Additional Processing<br/>localGI, AAN segmentation"]
-        B5["✅ Quality Control<br/>FreeView manual review"]
-    end
-    
-    %% ============ GROUP ANALYSIS ============
-    subgraph GA["Group Analysis - GLM"]
-        C1["📋 FSGD + Contrast<br/>AD vs PART, NeoLB vs other/no LB"]
-        C2["🔧 mris_preproc<br/>10mm smoothing"]
-        C3["📊 mri_glmfit<br/>GLM with covariates<br/>Age, Delta, eTIV"]
-        C4[["gamma.mgh<br/>effect size"]]
-        C5[["sig.mgh<br/>significance"]]
-    end
-    
-    %% ============ NEUROMAPS BRANCH ============
-    subgraph NM["Neuromaps Analysis"]
-        D1["🔄 Export to GIFTI<br/>mri_convert"]
-        D2["🔀 Spatial Transform<br/>fsaverage space"]
-        D3[("📚 Brain Map Library<br/>53+ atlases")]
-        D4["🎲 Spatial Null Models<br/>Vazquez-Rodriguez/Cornblath<br/>100 perm"]
-        D5["📈 Pearson Correlation<br/>+ empirical p-values"]
-    end
-    
-    %% ============ NCT BRANCH ============
-    subgraph NCT["NCT Analysis"]
-        E1["🎯 Cluster Correction<br/>Monte Carlo simulation<br/>mri_glmfit-sim"]
-        E2[["sig.cluster.mgh<br/>p < 0.05 clusters"]]
-        E3["🔄 Export fsaverage6<br/>mri_surf2surf"]
-        E4["⬛ Binarization<br/>threshold > 0.5"]
-        E5[("📚 fMRI Atlas Library<br/>4 atlases")]
-        E6["🎲 Dice Coefficient<br/>spin-test 1000 perm"]
-    end
-    
-    %% ============ RESULTS ============
-    subgraph RES["Results"]
-        F1["🧬 Neurotransmitter<br/>Correlations"]
-        F2["🔥 Metabolic<br/>Signatures"]
-        F3["🌐 Network<br/>Correspondence"]
-    end
-    
-    %% ============ CONNECTIONS ============
-    A1 --> A2 --> A3
-    A3 --> B1
-    B1 --> B2 --> B3
-    B3 --> B4
-    B3 --> B5
+    %% FREESURFER
+    A3 --> B1["⚙️ recon-all + qcache"]
+    B1 --> B2["📐 Surface Extraction"] --> B3["📊 Morphometrics<br/>thickness, volume"]
+    B3 --> B4["🔬 localGI + AAN"]
+    B3 --> B5["✅ QC FreeView"]
     B4 --> B5
-    B5 --> C1
-    C1 --> C2 --> C3
-    C3 --> C4
-    C3 --> C5
     
-    %% Neuromaps branch
-    C4 --> D1 --> D2
-    D3 --> D2
-    D2 --> D4 --> D5
+    %% GROUP ANALYSIS
+    B5 --> C1["📋 FSGD + Contrast"]
+    C1 --> C2["🔧 mris_preproc"] --> C3["📊 mri_glmfit<br/>Age, Delta, eTIV"]
+    C3 --> C4[["gamma.mgh"]]
+    C3 --> C5[["sig.mgh"]]
     
-    %% NCT branch  
-    C5 --> E1 --> E2 --> E3 --> E4
-    E5 --> E4
-    E4 --> E6
+    %% NEUROMAPS BRANCH - TWO PATHS
+    C4 --> D1["🔄 Export GIFTI"]
     
-    %% Results
-    D5 --> F1
-    D5 --> F2
-    E6 --> F3
+    %% Vertex-wise path
+    D1 --> D2a["🔀 Vertex-wise<br/>fsaverage space"]
+    D3[("📚 53+ Brain Maps<br/>neurotransmitters<br/>metabolism, mito")] --> D2a
+    D2a --> D4a["🎲 Vazquez-Rodriguez<br/>spin-test 1000 perm"]
     
-    %% ============ STYLING - NODES ONLY ============
-    %% Input - Light Gray
+    %% Parcellated path
+    D1 --> D2b["🧩 Parcellation<br/>Desikan-Killiany<br/>68 ROIs"]
+    D3 --> D2b
+    D2b --> D4b["🎲 Cornblath<br/>null model 1000 perm"]
+    
+    %% Merge results
+    D4a --> D5["📈 Pearson r + p-value"]
+    D4b --> D5
+    
+    %% NCT BRANCH
+    C5 --> E1["🎯 Cluster Correction<br/>Monte Carlo"] --> E2[["sig.cluster.mgh"]]
+    E2 --> E3["🔄 Export fsaverage6"] --> E4["⬛ Binarize"]
+    E5[("📚 23 fMRI Atlases<br/>Yeo17, Schaefer<br/>Gordon")] --> E4
+    E4 --> E6["🎲 Dice + spin-test"]
+    
+    %% RESULTS
+    D5 --> F1["🧬 Neurotransmitter<br/>Correlations"]
+    D5 --> F2["🔥 Metabolic<br/>Signatures"]
+    E6 --> F3["🌐 Network<br/>Correspondence"]
+    
+    %% STYLING
     style A1 fill:#f5f5f5,stroke:#424242,color:#000
     style A2 fill:#eeeeee,stroke:#424242,color:#000
     style A3 fill:#e0e0e0,stroke:#424242,color:#000
     
-    %% FreeSurfer - Light Green
     style B1 fill:#c8e6c9,stroke:#2e7d32,color:#000
     style B2 fill:#c8e6c9,stroke:#2e7d32,color:#000
     style B3 fill:#a5d6a7,stroke:#2e7d32,color:#000
     style B4 fill:#c8e6c9,stroke:#2e7d32,color:#000
     style B5 fill:#a5d6a7,stroke:#2e7d32,color:#000
     
-    %% Group Analysis - Light Green
     style C1 fill:#e8f5e9,stroke:#2e7d32,color:#000
     style C2 fill:#c8e6c9,stroke:#2e7d32,color:#000
     style C3 fill:#a5d6a7,stroke:#2e7d32,color:#000
     style C4 fill:#81c784,stroke:#1b5e20,color:#000,stroke-width:3px
     style C5 fill:#81c784,stroke:#1b5e20,color:#000,stroke-width:3px
     
-    %% Neuromaps - Light Blue
     style D1 fill:#e3f2fd,stroke:#1565c0,color:#000
-    style D2 fill:#bbdefb,stroke:#1565c0,color:#000
+    style D2a fill:#bbdefb,stroke:#1565c0,color:#000
+    style D2b fill:#bbdefb,stroke:#1565c0,color:#000
     style D3 fill:#90caf9,stroke:#1565c0,color:#000
-    style D4 fill:#bbdefb,stroke:#1565c0,color:#000
+    style D4a fill:#bbdefb,stroke:#1565c0,color:#000
+    style D4b fill:#bbdefb,stroke:#1565c0,color:#000
     style D5 fill:#64b5f6,stroke:#0d47a1,color:#000,stroke-width:3px
     
-    %% NCT - Light Pink/Red
     style E1 fill:#ffebee,stroke:#c62828,color:#000
     style E2 fill:#ffcdd2,stroke:#c62828,color:#000,stroke-width:3px
     style E3 fill:#ffebee,stroke:#c62828,color:#000
@@ -128,7 +91,6 @@ flowchart TD
     style E5 fill:#ef9a9a,stroke:#c62828,color:#000
     style E6 fill:#ef9a9a,stroke:#b71c1c,color:#000,stroke-width:3px
     
-    %% Results - Light Purple
     style F1 fill:#e1bee7,stroke:#7b1fa2,color:#000
     style F2 fill:#ce93d8,stroke:#7b1fa2,color:#000
     style F3 fill:#e1bee7,stroke:#7b1fa2,color:#000
