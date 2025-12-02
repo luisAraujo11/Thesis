@@ -39,7 +39,7 @@ flowchart TD
     C --> D[📊 Group Analysis<br/>GLM]
     
     D --> E[gamma.mgh<br/>effect size]
-    D --> F[Cluster Correction<br/>Monte Carlo]
+    D --> F[Cluster Correction<br/>Monte Carlo - sig.mgh]
     
     E --> G[Export to GIFTI]
     F --> H[Export to fsaverage6]
