@@ -44,7 +44,7 @@ flowchart TD
     subgraph NM["🗺️ Neuromaps Analysis"]
         D1["🔄 Export to GIFTI<br/>mri_convert"]
         D2["🔀 Spatial Transform<br/>fsaverage space"]
-        D3[("📚 Brain Map Library<br/>53+ atlases<br/>neurotransmitters,<br/>metabolism, mitochondrial")]
+        D3[("📚 Brain Map Library<br/>53+ atlases")]
         D4["🎲 Spatial Null Models<br/>Vazquez-Rodriguez<br/>spin-test 1000 perm"]
         D5["📈 Pearson Correlation<br/>+ empirical p-values"]
     end
@@ -55,15 +55,15 @@ flowchart TD
         E2[["sig.cluster.mgh<br/>p < 0.05 clusters"]]
         E3["🔄 Export fsaverage6<br/>mri_surf2surf"]
         E4["⬛ Binarization<br/>threshold > 0.5"]
-        E5[("📚 fMRI Atlas Library<br/>23 resting-state atlases<br/>Yeo17, Schaefer, Gordon")]
+        E5[("📚 fMRI Atlas Library<br/>23 atlases")]
         E6["🎲 Dice Coefficient<br/>spin-test 1000 perm"]
     end
     
     %% ============ RESULTS ============
     subgraph RES["📊 Results"]
-        F1["🧬 Neurotransmitter<br/>Correlations<br/>5-HT, DA, NE, GABA"]
-        F2["🔥 Metabolic<br/>Signatures<br/>CBF, CMR, Mitochondrial"]
-        F3["🌐 Network<br/>Correspondence<br/>DMN, DorsAttn, Premotor"]
+        F1["🧬 Neurotransmitter<br/>Correlations"]
+        F2["🔥 Metabolic<br/>Signatures"]
+        F3["🌐 Network<br/>Correspondence"]
     end
     
     %% ============ CONNECTIONS ============
@@ -93,53 +93,53 @@ flowchart TD
     D5 --> F2
     E6 --> F3
     
-    %% ============ STYLING ============
-    %% Input - Gray
-    style A1 fill:#e0e0e0,stroke:#616161,color:#000
-    style A2 fill:#e0e0e0,stroke:#616161,color:#000
-    style A3 fill:#e0e0e0,stroke:#616161,color:#000
+    %% ============ STYLING - HIGH CONTRAST ============
+    %% Input - Light Gray with BLACK text
+    style A1 fill:#f5f5f5,stroke:#424242,color:#000000
+    style A2 fill:#eeeeee,stroke:#424242,color:#000000
+    style A3 fill:#e0e0e0,stroke:#424242,color:#000000
     
-    %% FreeSurfer - Green
-    style B1 fill:#a5d6a7,stroke:#2e7d32,color:#000
-    style B2 fill:#a5d6a7,stroke:#2e7d32,color:#000
-    style B3 fill:#a5d6a7,stroke:#2e7d32,color:#000
-    style B4 fill:#81c784,stroke:#2e7d32,color:#000
-    style B5 fill:#81c784,stroke:#2e7d32,color:#000
+    %% FreeSurfer - Light Green with BLACK text
+    style B1 fill:#c8e6c9,stroke:#2e7d32,color:#000000
+    style B2 fill:#c8e6c9,stroke:#2e7d32,color:#000000
+    style B3 fill:#a5d6a7,stroke:#2e7d32,color:#000000
+    style B4 fill:#c8e6c9,stroke:#2e7d32,color:#000000
+    style B5 fill:#a5d6a7,stroke:#2e7d32,color:#000000
     
-    %% Group Analysis - Green
-    style C1 fill:#c8e6c9,stroke:#2e7d32,color:#000
-    style C2 fill:#c8e6c9,stroke:#2e7d32,color:#000
-    style C3 fill:#a5d6a7,stroke:#2e7d32,color:#000
-    style C4 fill:#81c784,stroke:#1b5e20,color:#000,stroke-width:2px
-    style C5 fill:#81c784,stroke:#1b5e20,color:#000,stroke-width:2px
+    %% Group Analysis - Light Green with BLACK text
+    style C1 fill:#e8f5e9,stroke:#2e7d32,color:#000000
+    style C2 fill:#c8e6c9,stroke:#2e7d32,color:#000000
+    style C3 fill:#a5d6a7,stroke:#2e7d32,color:#000000
+    style C4 fill:#81c784,stroke:#1b5e20,color:#000000,stroke-width:3px
+    style C5 fill:#81c784,stroke:#1b5e20,color:#000000,stroke-width:3px
     
-    %% Neuromaps - Blue
-    style D1 fill:#bbdefb,stroke:#1565c0,color:#000
-    style D2 fill:#90caf9,stroke:#1565c0,color:#000
-    style D3 fill:#64b5f6,stroke:#0d47a1,color:#000
-    style D4 fill:#42a5f5,stroke:#0d47a1,color:#000
-    style D5 fill:#1e88e5,stroke:#0d47a1,color:#fff,stroke-width:2px
+    %% Neuromaps - Light Blue with BLACK text
+    style D1 fill:#e3f2fd,stroke:#1565c0,color:#000000
+    style D2 fill:#bbdefb,stroke:#1565c0,color:#000000
+    style D3 fill:#90caf9,stroke:#1565c0,color:#000000
+    style D4 fill:#bbdefb,stroke:#1565c0,color:#000000
+    style D5 fill:#64b5f6,stroke:#0d47a1,color:#000000,stroke-width:3px
     
-    %% NCT - Red/Pink
-    style E1 fill:#ffcdd2,stroke:#c62828,color:#000
-    style E2 fill:#ef9a9a,stroke:#c62828,color:#000,stroke-width:2px
-    style E3 fill:#ffcdd2,stroke:#c62828,color:#000
-    style E4 fill:#ef9a9a,stroke:#c62828,color:#000
-    style E5 fill:#e57373,stroke:#b71c1c,color:#000
-    style E6 fill:#e53935,stroke:#b71c1c,color:#fff,stroke-width:2px
+    %% NCT - Light Pink/Red with BLACK text
+    style E1 fill:#ffebee,stroke:#c62828,color:#000000
+    style E2 fill:#ffcdd2,stroke:#c62828,color:#000000,stroke-width:3px
+    style E3 fill:#ffebee,stroke:#c62828,color:#000000
+    style E4 fill:#ffcdd2,stroke:#c62828,color:#000000
+    style E5 fill:#ef9a9a,stroke:#c62828,color:#000000
+    style E6 fill:#ef9a9a,stroke:#b71c1c,color:#000000,stroke-width:3px
     
-    %% Results - Purple
-    style F1 fill:#ce93d8,stroke:#7b1fa2,color:#000
-    style F2 fill:#ba68c8,stroke:#7b1fa2,color:#000
-    style F3 fill:#ab47bc,stroke:#6a1b9a,color:#fff
+    %% Results - Light Purple with BLACK text
+    style F1 fill:#e1bee7,stroke:#7b1fa2,color:#000000
+    style F2 fill:#ce93d8,stroke:#7b1fa2,color:#000000
+    style F3 fill:#e1bee7,stroke:#7b1fa2,color:#000000
     
     %% Subgraph styling
-    style INPUT fill:#fafafa,stroke:#9e9e9e
-    style FS fill:#e8f5e9,stroke:#4caf50
-    style GA fill:#e8f5e9,stroke:#4caf50
-    style NM fill:#e3f2fd,stroke:#2196f3
-    style NCT fill:#ffebee,stroke:#f44336
-    style RES fill:#f3e5f5,stroke:#9c27b0
+    style INPUT fill:#fafafa,stroke:#757575
+    style FS fill:#f1f8e9,stroke:#689f38
+    style GA fill:#f1f8e9,stroke:#689f38
+    style NM fill:#e8f4fd,stroke:#1976d2
+    style NCT fill:#fce4ec,stroke:#d32f2f
+    style RES fill:#f3e5f5,stroke:#8e24aa
 ```
 ```
 Outputs:
