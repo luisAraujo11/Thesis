@@ -14,7 +14,7 @@ This thesis analyzes structural MRI data from the NACC dataset (833 post-mortem 
 
 **Main Pipeline:**
 ```mermaid
-%%{init: {'theme': 'default'}}%%
+%%{init: {'theme': 'neutral'}}%%
 flowchart TD
     %% ============ DATA INPUT ============
     subgraph INPUT["Data Input"]
