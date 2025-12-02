@@ -27,7 +27,7 @@ flowchart TD
     
     %% GROUP ANALYSIS
     B5 --> C1["📋 FSGD + Contrast"]
-    C1 --> C2["🔧 mris_preproc"] --> C3["📊 mri_glmfit<br/>Age, Delta, eTIV"]
+    C1 --> C2["🔧 mris_preproc"] --> C3["📊 mri_glmfit<br/>Age, Delta, eTIV [CERAD]"]
     C3 --> C4[["gamma.mgh"]]
     C3 --> C5[["sig.mgh"]]
     
@@ -35,14 +35,14 @@ flowchart TD
     C4 --> D1["🔄 Export GIFTI"]
     
     %% Vertex-wise path
-    D1 --> D2a["🔀 Vertex-wise<br/>fsaverage space"]
-    D3[("📚 53+ Brain Maps<br/>neurotransmitters<br/>metabolism, mito")] --> D2a
-    D2a --> D4a["🎲 Vazquez-Rodriguez<br/>spin-test 1000 perm"]
+    D1 --> D2a["🔀 Vertex-wise analysis<br/> in fsaverage space"]
+    D3[("📚 53+6 Brain Maps<br/>neurotransmitters<br/>metabolism, mito")] --> D2a
+    D2a --> D4a["🎲 Vazquez-Rodriguez<br/>spin-test 100 perm"]
     
     %% Parcellated path
-    D1 --> D2b["🧩 Parcellation<br/>Desikan-Killiany<br/>68 ROIs"]
+    D1 --> D2b["🧩 Parcellation analysis<br/>in fsaverage space and Desikan-Killiany<br/>with 68 ROIs"]
     D3 --> D2b
-    D2b --> D4b["🎲 Cornblath<br/>null model 1000 perm"]
+    D2b --> D4b["🎲 Cornblath<br/>null model 100 perm"]
     
     %% Merge results
     D4a --> D5["📈 Pearson r + p-value"]
@@ -51,7 +51,7 @@ flowchart TD
     %% NCT BRANCH
     C5 --> E1["🎯 Cluster Correction<br/>Monte Carlo"] --> E2[["sig.cluster.mgh"]]
     E2 --> E3["🔄 Export fsaverage6"] --> E4["⬛ Binarize"]
-    E5[("📚 23 fMRI Atlases<br/>Yeo17, Schaefer<br/>Gordon")] --> E4
+    E5[("📚 4 fMRI Atlases<br/>Yeo17, Schaefer<br/>Gordon")] --> E4
     E4 --> E6["🎲 Dice + spin-test"]
     
     %% RESULTS
