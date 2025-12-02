@@ -2,6 +2,7 @@
 
 **Author:** Luís Araújo  
 **Title:** Structural and Functional Analysis of Brain Maps in Alzheimer's Disease  
+**Repository:** https://github.com/luisAraujo11/Thesis  
 **Last Updated:** December 2025
 
 This document describes the chronological development steps of the thesis project, including code references and commands used throughout the analysis pipeline.
@@ -14,13 +15,47 @@ This thesis analyzes structural MRI data from the NACC dataset (833 post-mortem 
 
 **Main Pipeline:**
 ```
-Raw MRI → Filtering → FreeSurfer recon-all → Group Analysis → 
-Cluster Correction → Neuromaps Correlations → NCT Network Mapping
+┌─────────────┐    ┌──────────────┐    ┌─────────────────┐    ┌──────────────┐
+│  Raw MRI    │───►│  Filtering   │───►│ FreeSurfer      │───►│   Group      │
+│  (T1w)      │    │  (T1 only)   │    │ recon-all       │    │   Analysis   │
+└─────────────┘    └──────────────┘    │ + qcache        │    │   (GLM)      │
+                                       └─────────────────┘    └──────┬───────┘
+                                                                     │
+                                                                     ▼
+┌─────────────┐    ┌──────────────┐    ┌─────────────────┐    ┌──────────────┐
+│   NCT       │◄───│  Neuromaps   │◄───│   Export to     │◄───│  Cluster     │
+│  (Network   │    │  (Spatial    │    │   GIFTI/fsa6    │    │  Correction  │
+│   Mapping)  │    │  Correlation)│    │                 │    │  (Monte Carlo│
+└─────────────┘    └──────────────┘    └─────────────────┘    └──────────────┘
+
+Outputs:
+- Group Analysis: gamma.mgh (effect size), sig.mgh (uncorrected significance)
+- Cluster Correction: cache.th13.pos.sig.cluster.mgh (cluster-corrected map)
 ```
 
 ![Project Workflow](workflow_pipeline.png)
 
 **Figure 1:** Project Workflow Illustration. FreeSurfer Processing Data pipeline (Green) was retrieved and adapted from Gao et al. (2020). Neuromaps Workflow (Blue) was retrieved from Markello et al. (2022). Network Correspondence Toolbox Workflow (Red) was retrieved from Kong et al. (2025).
+
+---
+
+## Phase 0: Initial Development (Proof of Concept)
+
+### 0.1 MNI-152 Normalization Script
+
+**Script:** `Utils/niftiTOmni152.py`
+
+Early in development, this script was created to normalize NIfTI volumes to MNI-152 space for testing the Neuromaps pipeline with volumetric data.
+
+```python
+from nilearn.image import resample_to_img
+from nilearn.datasets import load_mni152_template
+
+template = load_mni152_template(resolution=2)
+normalized = resample_to_img(source_img, template)
+```
+
+**Note:** This was used for proof-of-concept testing before the FreeSurfer surface-based pipeline was implemented.
 
 ---
 
@@ -34,7 +69,7 @@ Cluster Correction → Neuromaps Correlations → NCT Network Mapping
 - `cross_MRIs.py` - Cross-reference with neuropathological data
 - `process_MRIs_pipeline.sh` - Orchestration script
 
-**Command:**
+**Example command:**
 ```bash
 ./process_MRIs_pipeline.sh \
   -s /source/NACC_MRI_RawData/ \
@@ -55,12 +90,13 @@ Cluster Correction → Neuromaps Correlations → NCT Network Mapping
 
 **Script:** `FreeSurfer/freesurfer_process.sh`
 
-**Command (parallel processing):**
+**Example command (single subject):**
 ```bash
-# Single subject
 recon-all -i /path/to/scan.nii.gz -s NACC145249 -all -qcache
+```
 
-# Batch processing with GNU parallel (12 jobs)
+**Batch processing with GNU parallel:**
+```bash
 cat commands_file.txt | parallel --progress --jobs 12
 ```
 
@@ -119,10 +155,27 @@ freeview -f $SUBJECTS_DIR/NACC145249/surf/lh.pial:overlay=$SUBJECTS_DIR/NACC1452
 
 **Note:** Requires FreeSurfer 8.1.0 (used Docker image for compatibility with v7.4.1)
 
-**Command:**
+**Script structure (parallel processing):**
 ```bash
+# Set environment
+SUBJECTS_DIR=/data
 export ITK_GLOBAL_DEFAULT_NUMBER_OF_THREADS=12
-SegmentAAN.sh NACC145249
+
+# Get list of subjects
+subjects=($(ls $SUBJECTS_DIR | grep "^NACC[0-9]*"))
+
+# Run up to 12 subjects in parallel
+max_jobs=12
+job_count=0
+for subject in "${subjects[@]}"; do
+    echo "Processing subject: $subject"
+    SegmentAAN.sh "$subject" &
+    job_count=$((job_count+1))
+    if (( job_count % max_jobs == 0 )); then
+        wait
+    fi
+done
+wait
 ```
 
 **Outputs:** Brainstem nuclei volumes (VTA, LC, PTg, DR, MnR, etc.)
@@ -135,37 +188,42 @@ SegmentAAN.sh NACC145249
 
 **Script:** `FreeSurfer/runMrisPreproc.sh`
 
-**Command:**
+**Example command:**
 ```bash
 # For thickness (uses qcache)
-mris_preproc --fsgd FSGD/AdvsPARTwithoutLBStudy_Age_Delta_eTIV.fsgd \
+mris_preproc --fsgd FSGD/${study}.fsgd \
   --cache-in thickness.fwhm10.fsaverage \
   --target fsaverage \
   --hemi lh \
-  --out lh.thickness.AdvsPARTStudy.10.mgh
+  --out lh.thickness.${study}.10.mgh
 
-# For LGI (manually preprocessed)
-mris_preproc --fsgd FSGD/AdvsPARTwithoutLBStudy_Age_Delta_eTIV.fsgd \
+# For LGI (manually preprocessed with createLGI.sh)
+mris_preproc --fsgd FSGD/${study}.fsgd \
   --cache-in pial_lgi.fwhm10.fsaverage \
   --target fsaverage \
   --hemi lh \
-  --out lh.pial_lgi.AdvsPARTStudy.10.mgh
+  --out lh.pial_lgi.${study}.10.mgh
 ```
 
 ### 3.2 General Linear Model (GLM)
 
 **Script:** `FreeSurfer/runGLMs.sh`
 
-**Command:**
+**Example command:**
 ```bash
 mri_glmfit \
-  --y lh.thickness.AdvsPARTStudy.10.mgh \
-  --fsgd FSGD/AdvsPARTwithoutLBStudy_Age_Delta_eTIV.fsgd doss \
+  --y lh.thickness.${study}.10.mgh \
+  --fsgd FSGD/${study}.fsgd doss \
   --C Contrasts/AD-PART_Age_Delta_eTIV.mtx \
+  --C Contrasts/PART-AD_Age_Delta_eTIV.mtx \
   --surf fsaverage lh \
   --cortex \
-  --glmdir lh.thickness.AdvsPARTStudy.10.glmdir
+  --glmdir lh.thickness.${study}.10.glmdir
 ```
+
+**Outputs (from mri_glmfit):**
+- `gamma.mgh` - Effect size (contrast estimate)
+- `sig.mgh` - Uncorrected significance map
 
 **FSGD File Structure (covariates normalized 0-1):**
 ```
@@ -191,10 +249,10 @@ Input  NACC014139  PART  0.70  0.56  0.48
 
 **Script:** `FreeSurfer/runClustSims.sh`
 
-**Command:**
+**Example command:**
 ```bash
 mri_glmfit-sim \
-  --glmdir lh.thickness.AdvsPARTStudy.10.glmdir/AD-PART_Age_Delta_eTIV \
+  --glmdir lh.thickness.${study}.10.glmdir \
   --cache 1.3 pos \
   --cwp 0.05 \
   --2spaces
@@ -205,17 +263,16 @@ mri_glmfit-sim \
 - `--cwp 0.05`: Cluster-wise p-value threshold
 - `--2spaces`: Correct for both hemispheres
 
-**Outputs:**
-- `sig.cluster.mgh` - Cluster-corrected significance map
-- `gamma.mgh` - Effect size (contrast estimate)
+**Output (from mri_glmfit-sim):**
+- `cache.th13.pos.sig.cluster.mgh` - Cluster-corrected significance map
 
 **View Results:**
 ```bash
 # View significant clusters on inflated surface
-freeview -f $SUBJECTS_DIR/fsaverage/surf/lh.inflated:overlay=lh.thickness.AdvsPARTStudy.10.glmdir/AD-PART_Age_Delta_eTIV/cache.th13.pos.sig.cluster.mgh:overlay_threshold=1.3,5
+freeview -f $SUBJECTS_DIR/fsaverage/surf/lh.inflated:overlay=lh.thickness.${study}.10.glmdir/AD-PART_Age_Delta_eTIV/cache.th13.pos.sig.cluster.mgh:overlay_threshold=1.3,5
 
-# View effect sizes (gamma)
-freeview -f $SUBJECTS_DIR/fsaverage/surf/lh.inflated:overlay=lh.thickness.AdvsPARTStudy.10.glmdir/AD-PART_Age_Delta_eTIV/gamma.mgh:overlay_threshold=0.05,0.3
+# View effect sizes (gamma) from group analysis
+freeview -f $SUBJECTS_DIR/fsaverage/surf/lh.inflated:overlay=lh.thickness.${study}.10.glmdir/AD-PART_Age_Delta_eTIV/gamma.mgh:overlay_threshold=0.05,0.3
 ```
 
 ### 3.4 Export Regional Statistics
@@ -224,7 +281,7 @@ freeview -f $SUBJECTS_DIR/fsaverage/surf/lh.inflated:overlay=lh.thickness.AdvsPA
 - `FreeSurfer/export_desikan_killiany.sh`
 - `FreeSurfer/export_desikan_killiany_LGI.sh`
 
-**Commands:**
+**Example commands:**
 ```bash
 # Cortical measures (thickness, volume, area)
 aparcstats2table --subjects $(cat subjects_list.txt) \
@@ -252,10 +309,10 @@ mri_segstats \
 **Export gamma (effect size) maps for Neuromaps:**
 ```bash
 # Convert gamma.mgh to GIFTI
-mri_convert lh.thickness.AdvsPARTStudy.10.glmdir/AD-PART_Age_Delta_eTIV/gamma.mgh \
+mri_convert lh.thickness.${study}.10.glmdir/AD-PART_Age_Delta_eTIV/gamma.mgh \
             lh.ADvsPART.thickness.gamma.gii
 
-mri_convert rh.thickness.AdvsPARTStudy.10.glmdir/AD-PART_Age_Delta_eTIV/gamma.mgh \
+mri_convert rh.thickness.${study}.10.glmdir/AD-PART_Age_Delta_eTIV/gamma.mgh \
             rh.ADvsPART.thickness.gamma.gii
 ```
 
@@ -263,7 +320,7 @@ mri_convert rh.thickness.AdvsPARTStudy.10.glmdir/AD-PART_Age_Delta_eTIV/gamma.mg
 
 **Script:** `Neuromaps/pipeline_neuromaps_v5.py`
 
-**Command:**
+**Example command:**
 ```bash
 python pipeline_neuromaps_v5.py \
   --source_path_left lh.ADvsPART.thickness.gamma.gii \
@@ -294,7 +351,7 @@ Uses Desikan-Killiany atlas annotations from FreeSurfer.
 
 **Script:** `Neuromaps/batch_processing_surface_script.py`
 
-**Command:**
+**Example command:**
 ```bash
 python batch_processing_surface_script.py \
   --left-hemi lh.ADvsPART.thickness.gamma.gii \
@@ -306,10 +363,10 @@ python batch_processing_surface_script.py \
 ```
 
 **Map Categories:**
-- Neurotransmitters: 5-HT1a, 5-HT1b, 5-HT2a, 5-HT4, D1, D2, DAT, NET, SERT, GABAa, mGluR5, VAChT, MOR, CB1
-- Metabolism: CBF, CBV, CMR O2, CMR Glucose
+- Neurotransmitters: 5-HT1a, 5-HT1b, 5-HT2a, 5-HT4, D1, D2, DAT, NET, SERT, GABAa, mGluR5, VAChT, MOR, CB1, etc.
+- Metabolism: CBF, CBV, CMR O2, CMR Glucose, etc.
 - Mitochondrial (external): MRC, CI, CII, CIV, TRC, MitoD
-- Other: TSPO, COX-1, SV2A
+- Other: TSPO, COX-1, SV2A, etc.
 
 **Output:** CSV with Pearson r, p-value, null mean/std for each map.
 
@@ -319,19 +376,19 @@ python batch_processing_surface_script.py \
 
 ### 5.1 Convert to fsaverage6
 
-**Command:**
+**Example command:**
 ```bash
 # Resample cluster-corrected map to fsaverage6
 mri_surf2surf --srcsubject fsaverage \
   --trgsubject fsaverage6 \
   --hemi lh \
-  --sval lh.thickness.AdvsPARTStudy.10.glmdir/AD-PART_Age_Delta_eTIV/cache.th13.pos.sig.cluster.mgh \
+  --sval lh.thickness.${study}.10.glmdir/AD-PART_Age_Delta_eTIV/cache.th13.pos.sig.cluster.mgh \
   --tval lh_thickness_ADvsPART_fsa6.mgh
 
 mri_surf2surf --srcsubject fsaverage \
   --trgsubject fsaverage6 \
   --hemi rh \
-  --sval rh.thickness.AdvsPARTStudy.10.glmdir/AD-PART_Age_Delta_eTIV/cache.th13.pos.sig.cluster.mgh \
+  --sval rh.thickness.${study}.10.glmdir/AD-PART_Age_Delta_eTIV/cache.th13.pos.sig.cluster.mgh \
   --tval rh_thickness_ADvsPART_fsa6.mgh
 ```
 
@@ -357,7 +414,7 @@ np.save("thickness_ADvsPART_Hard.npy", data.reshape(-1, 1))
 
 ### 5.3 NCT Configuration
 
-**Config file (`config/data_info.txt`):**
+**Config file (`NCT/config.txt`):**
 ```
 [data_info]
 Data_Name: ADvsPART_thickness
@@ -372,9 +429,11 @@ import cbig_network_correspondence as cnc
 
 atlas_names_list = ["AS400K17", "TY17", "EG17", "AS200K17"]
 
-ref_params = cnc.compute_overlap_with_atlases.DataParams(config, file_path)
+ref_params = cnc.compute_overlap_with_atlases.DataParams('config', file_path)
 cnc.compute_overlap_with_atlases.network_correspondence(
-    ref_params, atlas_names_list, output_directory
+    ref_params,
+    atlas_names_list,
+    output_directory
 )
 ```
 
@@ -396,10 +455,6 @@ cnc.compute_overlap_with_atlases.network_correspondence(
 
 Uses `surfplot` library with ENIGMA toolbox.
 
-```python
-python surfplott.py
-```
-
 ### 6.2 FreeView Commands Reference
 
 ```bash
@@ -407,11 +462,11 @@ python surfplott.py
 freeview -f $SUBJECTS_DIR/fsaverage/surf/lh.inflated:overlay=gamma.mgh:overlay_threshold=0.05,0.3
 
 # View significance clusters
-freeview -f $SUBJECTS_DIR/fsaverage/surf/lh.inflated:overlay=sig.cluster.mgh:overlay_threshold=1.3,5
+freeview -f $SUBJECTS_DIR/fsaverage/surf/lh.inflated:overlay=cache.th13.pos.sig.cluster.mgh:overlay_threshold=1.3,5
 
 # Compare two overlays side by side
-freeview -f $SUBJECTS_DIR/fsaverage/surf/lh.inflated:overlay=lh_AD.mgh:overlay_custom=255,0,0 \
-         -f $SUBJECTS_DIR/fsaverage/surf/rh.inflated:overlay=rh_AD.mgh:overlay_custom=255,0,0 \
+freeview -f $SUBJECTS_DIR/fsaverage/surf/lh.inflated:overlay=lh_AD.mgh \
+         -f $SUBJECTS_DIR/fsaverage/surf/rh.inflated:overlay=rh_AD.mgh \
          -layout 1 -viewport 3d
 ```
 
@@ -467,10 +522,13 @@ Thesis/
 │   ├── neuromaps_multi_parcellation.py
 │   └── batch_processing_surface_script.py
 ├── NCT/                      # Phase 5
-│   └── nct.py
-└── Utils/                    # Phase 6
-    ├── surfplott.py
-    └── niftiTOmni152.py
+│   ├── nct.py
+│   └── config.txt
+├── Utils/                    # Phase 0 & 6
+│   ├── surfplott.py
+│   └── niftiTOmni152.py
+└── web_app/                  # Appendix A
+    └── app.py
 ```
 
 ---
@@ -494,4 +552,27 @@ pip install neuromaps nibabel nilearn surfplot pandas matplotlib
 - Markello et al. (2022) - Neuromaps toolbox
 - Kong et al. (2025) - Network Correspondence Toolbox
 - Alexander-Bloch et al. (2018) - Spin-test spatial nulls
+- Gao et al. (2020) - FreeSurfer pipeline overview
 - Desikan et al. (2006) - Desikan-Killiany atlas
+
+---
+
+## Appendix A: Web Application (Secondary Objective)
+
+A web platform was developed as a secondary objective to facilitate DICOM to NIfTI conversion and visualization.
+
+**Script:** `web_app/app.py`
+
+| File Manager | NIfTI Viewer |
+|:---:|:---:|
+| ![File Manager](web_app_file_manager.png) | ![NIfTI Viewer](web_app_viewer.png) |
+
+**Figure 2:** Web platform interface for DICOM to NIfTI conversion and visualization. (a) File management interface showing the list of converted NIfTI files with metadata and download options. (b) Interactive visualization interface using Papaya viewer, displaying multi-planar views of a brain MRI scan with coordinate information and intensity values.
+
+**Features:**
+- DICOM to NIfTI conversion using `dcm2niix`
+- Interactive 3D visualization with Papaya viewer
+- Metadata extraction and JSON sidecar download
+- Batch file processing
+
+**Note:** This component is not integrated with the main analysis pipeline and was developed as a proof-of-concept for future extensions.
