@@ -32,6 +32,27 @@ Outputs:
 - Cluster Correction: *.cluster.mgh (cluster-corrected map)
 ```
 
+```mermaid
+flowchart TD
+    A[🧠 Raw MRI] --> B[📁 Filtering<br/>T1 only]
+    B --> C[⚙️ FreeSurfer<br/>recon-all + qcache]
+    C --> D[📊 Group Analysis<br/>GLM]
+    
+    D --> E[gamma.mgh<br/>effect size]
+    D --> F[Cluster Correction<br/>Monte Carlo]
+    
+    E --> G[Export to GIFTI]
+    F --> H[Export to fsaverage6]
+    
+    G --> I[🗺️ Neuromaps<br/>Spatial Correlation]
+    H --> J[🔗 NCT<br/>Network Mapping]
+    
+    style A fill:#e1f5fe
+    style C fill:#c8e6c9
+    style I fill:#bbdefb
+    style J fill:#ffcdd2
+```
+
 ![Project Workflow](workflow_pipeline.png)
 
 **Figure 1:** Project Workflow Illustration. FreeSurfer Processing Data pipeline (Green) was retrieved and adapted from Gao et al. (2020). Neuromaps Workflow (Blue) was retrieved from Markello et al. (2022). Network Correspondence Toolbox Workflow (Red) was retrieved from Kong et al. (2025).
