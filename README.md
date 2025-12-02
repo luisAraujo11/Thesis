@@ -27,13 +27,13 @@ flowchart TD
         B1["⚙️ recon-all + qcache<br/>31-step pipeline"]
         B2["📐 Surface Extraction<br/>white + pial surfaces"]
         B3["📊 Morphometric Measures<br/>thickness, volume, curvature"]
-        B4["🔬 Additional Processing<br/>localGI, AAN segmentation"]
+        B4["🔬 Additional Processing<br/>localLGI, AAN segmentation"]
         B5["✅ Quality Control<br/>FreeView manual review"]
     end
     
     %% ============ GROUP ANALYSIS ============
     subgraph GA["Group Analysis - GLM"]
-        C1["📋 FSGD + Contrast<br/>AD vs PART, LB vs no LB"]
+        C1["📋 FSGD + Contrast<br/>AD vs PART, NeoLB vs other/no LB"]
         C2["🔧 mris_preproc<br/>10mm smoothing"]
         C3["📊 mri_glmfit<br/>GLM with covariates<br/>Age, Delta, eTIV"]
         C4[["gamma.mgh<br/>effect size"]]
@@ -45,7 +45,7 @@ flowchart TD
         D1["🔄 Export to GIFTI<br/>mri_convert"]
         D2["🔀 Spatial Transform<br/>fsaverage space"]
         D3[("📚 Brain Map Library<br/>53+ atlases")]
-        D4["🎲 Spatial Null Models<br/>Vazquez-Rodriguez<br/>spin-test 1000 perm"]
+        D4["🎲 Spatial Null Models<br/>Vazquez-Rodriguez/Cornblath<br/>100 perm"]
         D5["📈 Pearson Correlation<br/>+ empirical p-values"]
     end
     
