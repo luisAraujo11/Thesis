@@ -16,14 +16,14 @@ This thesis analyzes structural MRI data from the NACC dataset (833 post-mortem 
 ```mermaid
 flowchart TD
     %% ============ DATA INPUT ============
-    subgraph INPUT["📊 Data Input"]
+    subgraph INPUT["Data Input"]
         A1[("🗄️ NACC Database<br/>833 cases")]
         A2["📁 Raw T1-MRI<br/>.nii.gz"]
         A3["🔍 Filtering<br/>T1 extraction only"]
     end
     
     %% ============ FREESURFER PROCESSING ============
-    subgraph FS["🧠 FreeSurfer Processing"]
+    subgraph FS["FreeSurfer Processing"]
         B1["⚙️ recon-all + qcache<br/>31-step pipeline"]
         B2["📐 Surface Extraction<br/>white + pial surfaces"]
         B3["📊 Morphometric Measures<br/>thickness, volume, curvature"]
@@ -32,7 +32,7 @@ flowchart TD
     end
     
     %% ============ GROUP ANALYSIS ============
-    subgraph GA["📈 Group Analysis"]
+    subgraph GA["Group Analysis - GLM"]
         C1["📋 FSGD + Contrast<br/>AD vs PART, LB vs no LB"]
         C2["🔧 mris_preproc<br/>10mm smoothing"]
         C3["📊 mri_glmfit<br/>GLM with covariates<br/>Age, Delta, eTIV"]
@@ -41,7 +41,7 @@ flowchart TD
     end
     
     %% ============ NEUROMAPS BRANCH ============
-    subgraph NM["🗺️ Neuromaps Analysis"]
+    subgraph NM["Neuromaps Analysis"]
         D1["🔄 Export to GIFTI<br/>mri_convert"]
         D2["🔀 Spatial Transform<br/>fsaverage space"]
         D3[("📚 Brain Map Library<br/>53+ atlases")]
@@ -50,7 +50,7 @@ flowchart TD
     end
     
     %% ============ NCT BRANCH ============
-    subgraph NCT["🔗 Network Correspondence"]
+    subgraph NCT["Network Correspondence Toolbox"]
         E1["🎯 Cluster Correction<br/>Monte Carlo simulation<br/>mri_glmfit-sim"]
         E2[["sig.cluster.mgh<br/>p < 0.05 clusters"]]
         E3["🔄 Export fsaverage6<br/>mri_surf2surf"]
@@ -60,7 +60,7 @@ flowchart TD
     end
     
     %% ============ RESULTS ============
-    subgraph RES["📊 Results"]
+    subgraph RES["Results"]
         F1["🧬 Neurotransmitter<br/>Correlations"]
         F2["🔥 Metabolic<br/>Signatures"]
         F3["🌐 Network<br/>Correspondence"]
@@ -93,53 +93,45 @@ flowchart TD
     D5 --> F2
     E6 --> F3
     
-    %% ============ STYLING - HIGH CONTRAST ============
-    %% Input - Light Gray with BLACK text
-    style A1 fill:#f5f5f5,stroke:#424242,color:#000000
-    style A2 fill:#eeeeee,stroke:#424242,color:#000000
-    style A3 fill:#e0e0e0,stroke:#424242,color:#000000
+    %% ============ STYLING - NODES ONLY ============
+    %% Input - Light Gray
+    style A1 fill:#f5f5f5,stroke:#424242,color:#000
+    style A2 fill:#eeeeee,stroke:#424242,color:#000
+    style A3 fill:#e0e0e0,stroke:#424242,color:#000
     
-    %% FreeSurfer - Light Green with BLACK text
-    style B1 fill:#c8e6c9,stroke:#2e7d32,color:#000000
-    style B2 fill:#c8e6c9,stroke:#2e7d32,color:#000000
-    style B3 fill:#a5d6a7,stroke:#2e7d32,color:#000000
-    style B4 fill:#c8e6c9,stroke:#2e7d32,color:#000000
-    style B5 fill:#a5d6a7,stroke:#2e7d32,color:#000000
+    %% FreeSurfer - Light Green
+    style B1 fill:#c8e6c9,stroke:#2e7d32,color:#000
+    style B2 fill:#c8e6c9,stroke:#2e7d32,color:#000
+    style B3 fill:#a5d6a7,stroke:#2e7d32,color:#000
+    style B4 fill:#c8e6c9,stroke:#2e7d32,color:#000
+    style B5 fill:#a5d6a7,stroke:#2e7d32,color:#000
     
-    %% Group Analysis - Light Green with BLACK text
-    style C1 fill:#e8f5e9,stroke:#2e7d32,color:#000000
-    style C2 fill:#c8e6c9,stroke:#2e7d32,color:#000000
-    style C3 fill:#a5d6a7,stroke:#2e7d32,color:#000000
-    style C4 fill:#81c784,stroke:#1b5e20,color:#000000,stroke-width:3px
-    style C5 fill:#81c784,stroke:#1b5e20,color:#000000,stroke-width:3px
+    %% Group Analysis - Light Green
+    style C1 fill:#e8f5e9,stroke:#2e7d32,color:#000
+    style C2 fill:#c8e6c9,stroke:#2e7d32,color:#000
+    style C3 fill:#a5d6a7,stroke:#2e7d32,color:#000
+    style C4 fill:#81c784,stroke:#1b5e20,color:#000,stroke-width:3px
+    style C5 fill:#81c784,stroke:#1b5e20,color:#000,stroke-width:3px
     
-    %% Neuromaps - Light Blue with BLACK text
-    style D1 fill:#e3f2fd,stroke:#1565c0,color:#000000
-    style D2 fill:#bbdefb,stroke:#1565c0,color:#000000
-    style D3 fill:#90caf9,stroke:#1565c0,color:#000000
-    style D4 fill:#bbdefb,stroke:#1565c0,color:#000000
-    style D5 fill:#64b5f6,stroke:#0d47a1,color:#000000,stroke-width:3px
+    %% Neuromaps - Light Blue
+    style D1 fill:#e3f2fd,stroke:#1565c0,color:#000
+    style D2 fill:#bbdefb,stroke:#1565c0,color:#000
+    style D3 fill:#90caf9,stroke:#1565c0,color:#000
+    style D4 fill:#bbdefb,stroke:#1565c0,color:#000
+    style D5 fill:#64b5f6,stroke:#0d47a1,color:#000,stroke-width:3px
     
-    %% NCT - Light Pink/Red with BLACK text
-    style E1 fill:#ffebee,stroke:#c62828,color:#000000
-    style E2 fill:#ffcdd2,stroke:#c62828,color:#000000,stroke-width:3px
-    style E3 fill:#ffebee,stroke:#c62828,color:#000000
-    style E4 fill:#ffcdd2,stroke:#c62828,color:#000000
-    style E5 fill:#ef9a9a,stroke:#c62828,color:#000000
-    style E6 fill:#ef9a9a,stroke:#b71c1c,color:#000000,stroke-width:3px
+    %% NCT - Light Pink/Red
+    style E1 fill:#ffebee,stroke:#c62828,color:#000
+    style E2 fill:#ffcdd2,stroke:#c62828,color:#000,stroke-width:3px
+    style E3 fill:#ffebee,stroke:#c62828,color:#000
+    style E4 fill:#ffcdd2,stroke:#c62828,color:#000
+    style E5 fill:#ef9a9a,stroke:#c62828,color:#000
+    style E6 fill:#ef9a9a,stroke:#b71c1c,color:#000,stroke-width:3px
     
-    %% Results - Light Purple with BLACK text
-    style F1 fill:#e1bee7,stroke:#7b1fa2,color:#000000
-    style F2 fill:#ce93d8,stroke:#7b1fa2,color:#000000
-    style F3 fill:#e1bee7,stroke:#7b1fa2,color:#000000
-    
-    %% Subgraph styling
-    style INPUT fill:#fafafa,stroke:#757575
-    style FS fill:#f1f8e9,stroke:#689f38
-    style GA fill:#f1f8e9,stroke:#689f38
-    style NM fill:#e8f4fd,stroke:#1976d2
-    style NCT fill:#fce4ec,stroke:#d32f2f
-    style RES fill:#f3e5f5,stroke:#8e24aa
+    %% Results - Light Purple
+    style F1 fill:#e1bee7,stroke:#7b1fa2,color:#000
+    style F2 fill:#ce93d8,stroke:#7b1fa2,color:#000
+    style F3 fill:#e1bee7,stroke:#7b1fa2,color:#000
 ```
 ```
 Outputs:
