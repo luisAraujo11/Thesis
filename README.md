@@ -18,6 +18,10 @@ Raw MRI → Filtering → FreeSurfer recon-all → Group Analysis →
 Cluster Correction → Neuromaps Correlations → NCT Network Mapping
 ```
 
+![Project Workflow](workflow_pipeline.png)
+
+**Figure 1:** Project Workflow Illustration. FreeSurfer Processing Data pipeline (Green) was retrieved and adapted from Gao et al. (2020). Neuromaps Workflow (Blue) was retrieved from Markello et al. (2022). Network Correspondence Toolbox Workflow (Red) was retrieved from Kong et al. (2025).
+
 ---
 
 ## Phase 1: Data Acquisition and Preprocessing
