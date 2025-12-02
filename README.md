@@ -50,7 +50,7 @@ flowchart TD
     end
     
     %% ============ NCT BRANCH ============
-    subgraph NCT["NCT"]
+    subgraph NCT["NCT Analysis"]
         E1["🎯 Cluster Correction<br/>Monte Carlo simulation<br/>mri_glmfit-sim"]
         E2[["sig.cluster.mgh<br/>p < 0.05 clusters"]]
         E3["🔄 Export fsaverage6<br/>mri_surf2surf"]
