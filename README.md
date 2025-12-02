@@ -2,7 +2,6 @@
 
 **Author:** Luís Araújo  
 **Title:** Structural and Functional Analysis of Brain Maps in Alzheimer's Disease  
-**Repository:** https://github.com/luisAraujo11/Thesis  
 **Last Updated:** December 2025
 
 This document describes the chronological development steps of the thesis project, including code references and commands used throughout the analysis pipeline.
@@ -17,7 +16,7 @@ This thesis analyzes structural MRI data from the NACC dataset (833 post-mortem 
 ```
 ┌─────────────┐    ┌──────────────┐    ┌─────────────────┐    ┌──────────────┐
 │  Raw MRI    │───►│  Filtering   │───►│ FreeSurfer      │───►│   Group      │
-│  (T1w)      │    │  (T1 only)   │    │ recon-all       │    │   Analysis   │
+│             │    │  (T1 only)   │    │ recon-all       │    │   Analysis   │
 └─────────────┘    └──────────────┘    │ + qcache        │    │   (GLM)      │
                                        └─────────────────┘    └──────┬───────┘
                                                                      │
@@ -25,12 +24,12 @@ This thesis analyzes structural MRI data from the NACC dataset (833 post-mortem 
 ┌─────────────┐    ┌──────────────┐    ┌─────────────────┐    ┌──────────────┐
 │   NCT       │◄───│  Neuromaps   │◄───│   Export to     │◄───│  Cluster     │
 │  (Network   │    │  (Spatial    │    │   GIFTI/fsa6    │    │  Correction  │
-│   Mapping)  │    │  Correlation)│    │                 │    │  (Monte Carlo│
+│   Mapping)  │    │  Correlation)│    │                 │    │  Monte Carlo │
 └─────────────┘    └──────────────┘    └─────────────────┘    └──────────────┘
 
 Outputs:
 - Group Analysis: gamma.mgh (effect size), sig.mgh (uncorrected significance)
-- Cluster Correction: cache.th13.pos.sig.cluster.mgh (cluster-corrected map)
+- Cluster Correction: *.cluster.mgh (cluster-corrected map)
 ```
 
 ![Project Workflow](workflow_pipeline.png)
@@ -88,12 +87,12 @@ normalized = resample_to_img(source_img, template)
 
 ### 2.1 Surface Reconstruction (recon-all)
 
-**Script:** `FreeSurfer/freesurfer_process.sh`
-
 **Example command (single subject):**
 ```bash
 recon-all -i /path/to/scan.nii.gz -s NACC145249 -all -qcache
 ```
+
+**Script:** `FreeSurfer/freesurfer_process.sh`
 
 **Batch processing with GNU parallel:**
 ```bash
@@ -113,7 +112,7 @@ freeview -v $SUBJECTS_DIR/NACC145249/mri/brainmask.mgz \
          -f $SUBJECTS_DIR/NACC145249/surf/rh.pial:edgecolor=red \
          -f $SUBJECTS_DIR/NACC145249/surf/rh.white:edgecolor=yellow
 
-# Check for surface gaps (reject subjects with significant gaps)
+# Check for surface gaps (remove subjects with significant gaps)
 freeview -f $SUBJECTS_DIR/NACC145249/surf/lh.pial:overlay=$SUBJECTS_DIR/NACC145249/surf/lh.volume
 ```
 
@@ -125,7 +124,8 @@ freeview -f $SUBJECTS_DIR/NACC145249/surf/lh.pial:overlay=$SUBJECTS_DIR/NACC1452
 
 **Compute LGI:**
 ```bash
-recon-all -s NACC145249 -localGI
+# Given a subject directory, it will compute the LGI for all sujects in parallel
+./localLGI
 ```
 
 **Smooth and resample for group analysis:**
@@ -184,6 +184,8 @@ wait
 
 ## Phase 3: Group-Level Statistical Analysis
 
+**Note:** Used scripts where adapted from Andy's Brain Book - FreeSurfer Short Course
+
 ### 3.1 Prepare Group Data
 
 **Script:** `FreeSurfer/runMrisPreproc.sh`
@@ -225,7 +227,7 @@ mri_glmfit \
 - `gamma.mgh` - Effect size (contrast estimate)
 - `sig.mgh` - Uncorrected significance map
 
-**FSGD File Structure (covariates normalized 0-1):**
+**Example of FSGD File Structure (covariates normalized 0-1):**
 ```
 GroupDescriptorFile 1
 Title AdvsPARTwithoutLBStudy_Age_Delta_eTIV_norm2
@@ -237,7 +239,7 @@ Input  NACC014139  PART  0.70  0.56  0.48
 ...
 ```
 
-**Contrast Matrix (tests AD > PART):**
+**Example of Contrast Matrix (tests AD > PART):**
 ```
 # AD-PART_Age_Delta_eTIV.mtx
 1 -1 0 0 0
@@ -258,15 +260,15 @@ mri_glmfit-sim \
   --2spaces
 ```
 
-**Parameters:**
+**Parameters (Standard):**
 - `--cache 1.3 pos`: Vertex-wise threshold p < 0.05 (|t| > 1.3), positive effects
 - `--cwp 0.05`: Cluster-wise p-value threshold
 - `--2spaces`: Correct for both hemispheres
 
 **Output (from mri_glmfit-sim):**
-- `cache.th13.pos.sig.cluster.mgh` - Cluster-corrected significance map
+- `*.cluster.mgh` - Cluster-corrected significance map
 
-**View Results:**
+**Example to View Results:**
 ```bash
 # View significant clusters on inflated surface
 freeview -f $SUBJECTS_DIR/fsaverage/surf/lh.inflated:overlay=lh.thickness.${study}.10.glmdir/AD-PART_Age_Delta_eTIV/cache.th13.pos.sig.cluster.mgh:overlay_threshold=1.3,5
@@ -308,7 +310,7 @@ mri_segstats \
 
 **Export gamma (effect size) maps for Neuromaps:**
 ```bash
-# Convert gamma.mgh to GIFTI
+# Convert gamma.mgh to GIFTI (both hemispheres)
 mri_convert lh.thickness.${study}.10.glmdir/AD-PART_Age_Delta_eTIV/gamma.mgh \
             lh.ADvsPART.thickness.gamma.gii
 
@@ -343,7 +345,7 @@ python pipeline_neuromaps_v5.py \
 
 **Script:** `Neuromaps/neuromaps_multi_parcellation.py`
 
-Uses Desikan-Killiany atlas annotations from FreeSurfer.
+Similar command to the vertex-wise program and uses Desikan-Killiany atlas annotations from FreeSurfer.
 
 **Note:** Maps with 4k or 32k vertices were excluded (incompatible with FreeSurfer annotations). 53/86 maps analyzed.
 
@@ -353,13 +355,15 @@ Uses Desikan-Killiany atlas annotations from FreeSurfer.
 
 **Example command:**
 ```bash
+# Program to process all maps in a single batch, either a vertex-level [surface] or parcellated [parcellated] analysis
 python batch_processing_surface_script.py \
   --left-hemi lh.ADvsPART.thickness.gamma.gii \
   --right-hemi rh.ADvsPART.thickness.gamma.gii \
   --source-space fsaverage \
   --n-perm 1000 \
   --null-model vazquez_rodriguez \
-  --study "ADvsPART_thickness"
+  --study "ADvsPART_thickness" \
+  --type-study surface
 ```
 
 **Map Categories:**
@@ -419,7 +423,7 @@ np.save("thickness_ADvsPART_Hard.npy", data.reshape(-1, 1))
 [data_info]
 Data_Name: ADvsPART_thickness
 Data_Space: fsaverage6
-Data_Type: Hard
+Data_Type: Hard # Data type for binary comparison
 ```
 
 ### 5.4 Run Network Correspondence
@@ -427,7 +431,7 @@ Data_Type: Hard
 ```python
 import cbig_network_correspondence as cnc
 
-atlas_names_list = ["AS400K17", "TY17", "EG17", "AS200K17"]
+atlas_names_list = ["AS400K17", "TY17", "EG17", "AS200K17"] # Select accordingly
 
 ref_params = cnc.compute_overlap_with_atlases.DataParams('config', file_path)
 cnc.compute_overlap_with_atlases.network_correspondence(
@@ -453,7 +457,7 @@ cnc.compute_overlap_with_atlases.network_correspondence(
 
 **Script:** `Utils/surfplott.py`
 
-Uses `surfplot` library with ENIGMA toolbox.
+Uses `surfplot` library for preliminary dissertation results and ENIGMA toolbox for publication figures.
 
 ### 6.2 FreeView Commands Reference
 
@@ -554,12 +558,13 @@ pip install neuromaps nibabel nilearn surfplot pandas matplotlib
 - Alexander-Bloch et al. (2018) - Spin-test spatial nulls
 - Gao et al. (2020) - FreeSurfer pipeline overview
 - Desikan et al. (2006) - Desikan-Killiany atlas
+- Andy's Brain Book - https://andysbrainbook.readthedocs.io/en/latest/FreeSurfer/FreeSurfer_Introduction.html
 
 ---
 
 ## Appendix A: Web Application (Secondary Objective)
 
-A web platform was developed as a secondary objective to facilitate DICOM to NIfTI conversion and visualization.
+A web platform was developed as a secondary objective to facilitate DICOM to NIfTI conversion and visualization, and, in the future, to display pipeline results.
 
 **Script:** `web_app/app.py`
 
