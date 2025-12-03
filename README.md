@@ -53,10 +53,10 @@ flowchart TD
     D4b --> D5
     
     %% NCT BRANCH
-    C5 --> E1["🎯 Cluster Correction<br/>Monte Carlo<br/>1000 perm"] --> E2[["sig.cluster.mgh"]]
+    C5 --> E1["🎯 Cluster Correction<br/>Monte Carlo"] --> E2[["sig.cluster.mgh"]]
     E2 --> E3["🔄 Export fsaverage6"] --> E4["⬛ Binarize"]
     E5[("📚 4 fMRI Atlases<br/>Yeo17, Schaefer<br/>Gordon")] --> E4
-    E4 --> E6["🎲 Dice + spin-test"]
+    E4 --> E6["🎲 Dice + spin-test 1000 perm"]
     
     %% RESULTS
     D5 --> F1["🧬 Neurotransmitter<br/>Correlations"]
