@@ -404,6 +404,12 @@ mri_segstats \
 
 ## Phase 4: Neuromaps Spatial Correlation Analysis
 
+**Architecture Overview:**
+
+![Project Workflow](Images/neuromaps_arq.png)
+
+**Figure 2:** Architecture of the Neuromaps pipeline.
+
 ### 4.1 Convert FreeSurfer Outputs to GIFTI
 
 **Export gamma (effect size) maps for Neuromaps:**
@@ -685,7 +691,7 @@ A web platform was developed as a secondary objective to facilitate DICOM to NIf
 |:---:|:---:|
 | ![File Manager](Images/web_app_file_manager.png) | ![NIfTI Viewer](Images/web_app_viewer.png) |
 
-**Figure 2:** Web platform interface for DICOM to NIfTI conversion and visualization. (a) File management interface showing the list of converted NIfTI files with metadata and download options. (b) Interactive visualization interface using Papaya viewer, displaying multi-planar views of a brain MRI scan with coordinate information and intensity values.
+**Figure 3:** Web platform interface for DICOM to NIfTI conversion and visualization. (a) File management interface showing the list of converted NIfTI files with metadata and download options. (b) Interactive visualization interface using Papaya viewer, displaying multi-planar views of a brain MRI scan with coordinate information and intensity values.
 
 **Features:**
 - DICOM to NIfTI conversion using `dcm2niix`
