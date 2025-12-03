@@ -6,6 +6,10 @@
 
 This document describes the chronological development steps of the thesis project, including code references and commands used throughout the analysis pipeline.
 
+![Python](https://img.shields.io/badge/Python-3.8+-blue)
+![FreeSurfer](https://img.shields.io/badge/FreeSurfer-7.4.1-green)
+![License](https://img.shields.io/badge/License-CC%20BY--NC--ND-yellow)
+
 ---
 
 ## Overview
@@ -95,6 +99,14 @@ flowchart TD
     style F2 fill:#ce93d8,stroke:#7b1fa2,color:#000
     style F3 fill:#e1bee7,stroke:#7b1fa2,color:#000
 ```
+
+**Color Legend:**
+- ⬜ Gray: Data Input
+- 🟩 Green: FreeSurfer Processing
+- 🟦 Blue: Neuromaps Analysis  
+- 🟥 Red: Network Correspondence (NCT)
+- 🟪 Purple: Final Results
+
 ```
 Outputs:
 - Group Analysis: gamma.mgh (effect size), sig.mgh (uncorrected significance)
