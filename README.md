@@ -603,6 +603,15 @@ mris_info $SUBJECTS_DIR/fsaverage/surf/lh.pial
 
 ---
 
+## Key Findings
+
+| Comparison | Main Correlates | Networks |
+|------------|-----------------|----------|
+| AD vs PART (thickness) | 5-HT1a (+), 5-HT1b (-), NET (-) | Default Mode, Dorsal Attention |
+| Neocortical LB | Mitochondrial (+), 5-HTT (-) | Premotor |
+
+---
+
 ## File Structure
 
 ```
@@ -685,3 +694,15 @@ A web platform was developed as a secondary objective to facilitate DICOM to NIf
 - Batch file processing
 
 **Note:** This component is not integrated with the main analysis pipeline and was developed as a proof-of-concept for future extensions.
+
+## Citation
+
+If you use this pipeline, please cite:
+```bibtex
+@mastersthesis{araujo2025brain,
+  author  = {Araújo, Luís B.},
+  title   = {Structural and Functional Analysis of Brain Maps in Alzheimer's Disease},
+  school  = {University of Minho},
+  year    = {2025}
+}
+```
